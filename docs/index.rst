@@ -1,4 +1,4 @@
-iCOMIC
+iCOMIC_test
 ------------
 
 Documents
