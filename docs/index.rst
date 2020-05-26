@@ -18,3 +18,4 @@ Documents
    case
    troubleshoot
    changelog
+   glossary
