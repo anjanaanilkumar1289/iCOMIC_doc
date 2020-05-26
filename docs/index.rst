@@ -11,3 +11,4 @@ Documents
    installation
    getting_started
    usage
+   walkthrough
