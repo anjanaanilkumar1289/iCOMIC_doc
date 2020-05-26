@@ -1,1 +1,7 @@
-iCOMIC is a tool for genomic data analysis characterized by multiple pipelines for whole genome sequencing and RNA-seq data analysis and a user friendly GUI. 
+# iCOMIC_doc User Guide v0.0.0
+
+## Introduction
+Put an introduction here.
+
+## Main Content
+Put more content here.
