@@ -6,4 +6,4 @@ Documents
 .. toctree::
    :maxdepth: 16
 
-   user-guide.md
+   user-guide
