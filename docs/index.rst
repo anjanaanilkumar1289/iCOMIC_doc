@@ -17,3 +17,4 @@ Documents
    gallery
    case
    troubleshoot
+   changelog
