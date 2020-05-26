@@ -1,4 +1,4 @@
-iCOMIC_test
+iCOMIC_doc
 ------------
 
 Documents
@@ -7,3 +7,4 @@ Documents
    :maxdepth: 16
 
    user-guide
+   about
