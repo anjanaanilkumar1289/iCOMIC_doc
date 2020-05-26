@@ -15,3 +15,4 @@ Documents
    custom
    results
    gallery
+   case
