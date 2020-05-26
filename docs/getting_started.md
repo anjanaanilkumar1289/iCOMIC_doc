@@ -8,7 +8,7 @@ This guide will walk you through the steps necessary to understand, install, and
 
 #### 3.1. iCOMIC overview
 
-iCOMIC is an open-source, stand-alone toolkit for genomic data analysis, characterized by a python based Graphical User Interface. The tool enables researchers with minimal programming expertise to draw consequential insights from DNA Seq and RNA Seq data.
+iCOMIC is an open-source, stand-alone toolkit for genomic data analysis, characterized by a python based Graphical User Interface. The tool enables researchers with minimal programming expertise to draw consequential insights from DNA-Seq and RNA-Seq data.
 
 #### 3.2. Install iCOMIC
 
@@ -80,7 +80,9 @@ The Column names should be:
 
 #### 3.7. Quick Guide
 
-iCOMIC toolkit enables the ready analysis of RNA-Seq and Whole Genome Sequencing data. It has an inbuilt library of tools with predefined valid combinations. The user will have the freedom to choose any possible combination of tools. Figure 1 and 2 depicts the basic steps and outputs involved in DNA Seq and RNA Seq pipelines respectively.
+iCOMIC toolkit enables the ready analysis of RNA-Seq and Whole Genome/Exome Sequencing data. iCOMIC has an inbuilt library of tools with predefined valid combinations.
+
+The user will have the freedom to choose any possible combination of tools. Figure 1 and 2 depicts the basic steps and outputs involved in DNA-Seq and RNA-Seq pipelines respectively.
 
 ![Figure 1: DNA Seq pipeline](https://lh3.googleusercontent.com/npDtJeNMB1wk6kVAEA3YbF7Wt_Uv4wrV6tfBqZzxEaikKFgU0J4p45dGUExgU7GBmNPJkEJN5kaN6VOlByKm2xuUCqJ4XykjkjtEGD8LoiIcJ4UhTYPP_6umFEjjOMIG3oErevQIi3EmpmAe7CF5LtCl8skWv1EWHQbMQhgnQOZmOBgfZEuRBmtUzhI2PaxJYZwn4kKrscwX77sOJJYdxSK00spW80crgsRj65rozPvLKyNbxr6wBhhJK9IWWRrNW_JMsJkIxDpvt9ztWMQB4POYRjK7LyX6pFCRs9GjBfVjBkXJGLZw3KCqXUShWBBLHIb1muoQrnGu4sjgo8R-X-Lsxcxt97ZVGudO48G4dCCdk_nNKHJnXDtiH9X4k9sI8gBQa3iKJgvV0QyMIVv88CsZictAe0CPilyfI5YReJlZJz5HmpvybISo8oPipr_ncziSSrECxW_dAkQR_j8JchlLG8XtH2jNdPXtFbVPmp39hlkRxoGUdALIR7EgZ7QWv7VaX8J6TTf3v5uoU9CSL2KHQLOv_cZLdmqWDyZZX1UoD8C8ZV7NXzKD7Q3aByc4GnlpJDzKue3YwVMnt0UqlM4qOOxqIbpZmK-QRHkRlb--3Sc-b_ERvNphRKEL06VDVbMR6OyzB9yuqFeCqmxfO8vFVSFiHZdG_4EYSkbVvgk39Frvgm3H5bOxttxbynk=w1666-h937-no?authuser=0)  
 
@@ -122,10 +124,10 @@ Here is a typical set of actions to run iCOMIC pipelines:
 
 #### 3.8. Output information
 
-All outputs are stored in separate folders for each pipeline along with log information.
+All outputs are stored in separate folders inside the main folder iCOMIC, for each pipeline along with log information.
 
 - DNA-Seq
-
+DNA Seq analysis generates five output folders as follows.
 	- MultiQC
 	Contains subfolders MultiQC, FastQC and Cutadapt. MultiQC contains consolidated `html` reports on the overall run statistics and a separate `html` file on merged FastQC reports of all the input samples. The folder FastQC contains quality reports of individual samples. It may also enclose FastQC report of trimmed reads if the user opts for trimming the input reads. The folder Cutadapt contains trimmed `fastq` files.
 	- Aligner
@@ -137,7 +139,7 @@ Contains annotated `vcf` files.
 	- Index
 This is an optional folder which contains the index files if the user chooses to generate index corresponding to the choice of aligner.
 - RNA-Seq
-
+RNA-Seq analysis generates five output folders inside the main folder iCOMIC, as follows.
 	- MultiQC
 Contains subfolders MultiQC, FastQC and Cutadapt. MultiQC contains consolidated `html` reports on the overall run statistics and a separate `html` file on merged FastQC reports of all the input samples. The folder FastQC contains quality reports of individual samples. It may also enclose FastQC report of trimmed reads if the user opts for trimming the input reads. The folder Cutadapt contains trimmed `fastq` files.
 	- Aligner
