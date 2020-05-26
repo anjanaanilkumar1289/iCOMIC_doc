@@ -9,3 +9,4 @@ Documents
    user-guide
    about
    installation
+   getting_started
