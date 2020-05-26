@@ -10,3 +10,4 @@ Documents
    about
    installation
    getting_started
+   usage
