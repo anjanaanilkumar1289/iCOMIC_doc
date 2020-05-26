@@ -14,3 +14,4 @@ Documents
    walkthrough
    custom
    results
+   gallery
