@@ -12,3 +12,4 @@ Documents
    getting_started
    usage
    walkthrough
+   custom
