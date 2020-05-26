@@ -16,3 +16,4 @@ Documents
    results
    gallery
    case
+   troubleshoot
