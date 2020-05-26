@@ -1,10 +1,5 @@
 # iCOMIC_doc User Guide v0.0.0
 
-## 1. Introduction
-Put an introduction here.
-
-## 2. Main Content
-Put more content here.
 
 # 2.1 iCOMIC
 
