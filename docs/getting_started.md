@@ -88,7 +88,7 @@ The user will have the freedom to choose any possible combination of tools. Figu
 
 Figure 1: DNA Seq pipeline. This workflow indicates the analysis steps and major output files in DNA Seq pipeline.
 
-![enter image description here](https://lh3.googleusercontent.com/1kfhBfYl2dxfRDbcrkqLVov-M0AsSGV3eR0XnsJ8gJ322gWNcHOBELIj9CBuUX8mXeWsvOUP1-vLs5CpWbGWdHYuJxSExTSjYG7obhx-J0ZhRp7JObqk2FYfkm9mTZGhPnrJoEH1oNQcaF7LV0FYcx1iACp9uqjtA7knLN-QpSOgE1GBcDoKVFQhGG7frXayf6uUuqrhR8vr3kKXcp3aIExH_vuYN3cmWGqkddXFY9-lgtMjGCq3klhybxEitfIrCU1Q85zVPwbHUqhCVSQdft2gj1_Fw-31CX2AvGY4Zkp6oTt_EFpG22sbduGcjG6izz9Z4Q-e37lANfQG7Jfv17Mtq8xibiMT8y_d7L_NTvp58IOq5GKUSpLtgyos2V_Np6IYiVqDk0HJN1dL8Yl3o2UoxpyOQ1WQU_vZCxfKFInMPAIIQ0Zaq_bKpUyJn-fsgBV-FU9V5R6JWldgTS3vfgXqVSa5UV5mX9p1PD0GqeUHOb40ojGP45MD7pqeoEjxoj8-2OWM1pY3VJf-zmCq_5FrucjMLUqbXxeTPIXBr3soK4tV4cuY9StFz4c4rz7Tm1IY9K5yimW6zPYnzp5f3pKUhz4XiOA05saRvmhsHV-e2JtFvKn_mJuVwFgWaaKK5B2n3Vp1XgRhMSUHcEbZTLImgeVmz8gRztlYxpz_f7qHQUQcCB2muvBbjfE2EGk=w1666-h937-no?authuser=0)
+![enter image description here](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/rnaseq.png)
 Figure 2: The analysis steps and major output files in RNA Seq pipeline.
 
 Here is a typical set of actions to run iCOMIC pipelines:
