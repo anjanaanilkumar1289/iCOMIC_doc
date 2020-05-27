@@ -69,6 +69,6 @@ iCOMIC (**I**ntegrating **C**ontext **O**f **M**utation **I**n **C**ancer) an op
   10. Troubleshooting runtime issues
 	  1. FAQs
 
-  11. Changelog
 
   12. Glossary
+  
