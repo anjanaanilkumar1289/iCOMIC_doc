@@ -14,6 +14,8 @@ RNA Seq part enables quantification of gene expression. The pipeline provides a 
 
 Table shows the tools incorporated in iCOMIC
 
+##
+
 | Function | DNA-Seq Tools | RNA-Seq Tools | 
 |--|--|--| 
 | Quality Control | FastQC, MultiQC, Cutadapt | FastQC, MultiQC, Cutadapt | 
@@ -23,7 +25,7 @@ Table shows the tools incorporated in iCOMIC
 | Expression Modeller | - | Stringtie, HTSeq,STAR | 
 | Differential Expression | - | Deseq2, Ballgown | 
 
-
+##
  
 | Function  | DNA-Seq Tools |RNA-Seq Tools   |
 |--|--|--|
