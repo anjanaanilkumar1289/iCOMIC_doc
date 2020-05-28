@@ -5,7 +5,7 @@ iCOMIC integrates most of the best practise tools for Whole Genome sequencing an
 
   ![ Figure: rule.smk ](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/rule_snpeff.png?raw=true)
     
-  ![ Figure: rule.smk ](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/rule_snpeff.png)
+  
 
 This is how a rule file would look like. Parameters can be specified in the rule itself in the section `params`. If a snakemake wrapper is available for your choice of tool, that can be used, otherwise you need to write a shell command. List of snakemake wrappers are available in [Snakemake wrapper repository](https://snakemake-wrappers.readthedocs.io/en/stable/index.html). 
 
