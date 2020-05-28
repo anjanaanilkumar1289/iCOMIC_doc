@@ -14,14 +14,14 @@ RNA Seq part enables quantification of gene expression. The pipeline provides a 
 
 Table shows the tools incorporated in iCOMIC
 
-| Function                | DNA-Seq Tools                                            | RNA-Seq Tools                  |<br />
-|-------------------------|----------------------------------------------------------|--------------------------------|<br />
-| Quality Control         | FastQC, MultiQC, Cutadapt                                | FastQC, MultiQC, Cutadapt      |<br />
-| Alignment               | GEM-Mapper, BWA-MEM, Bowtie2                             | Bowtie2, STAR, HISAT22, Salmon |<br />
-| Variant Calling         | GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2 | -                              |<br />
-| Annotation              | Annovar, SnpEff                                          | -                              |<br />
-| Expression Modeller     | -                                                        | Stringtie, HTSeq,STAR          |<br />
-| Differential Expression | -                                                        | Deseq2, Ballgown               |<br />
+| Function | DNA-Seq Tools                                            | RNA-Seq Tools                  | <br />
+|--|--|--| <br />
+| Quality Control | FastQC, MultiQC, Cutadapt | FastQC, MultiQC, Cutadapt | <br />
+| Alignment | GEM-Mapper, BWA-MEM, Bowtie2 | Bowtie2, STAR, HISAT22, Salmon | <br />
+| Variant Calling | GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2 | - | <br />
+| Annotation | Annovar, SnpEff | - | <br />
+| Expression Modeller | - | Stringtie, HTSeq,STAR | <br />
+| Differential Expression | - | Deseq2, Ballgown | <br />
 
 
  
