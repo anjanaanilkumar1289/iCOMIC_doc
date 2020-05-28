@@ -84,14 +84,14 @@ iCOMIC toolkit enables the ready analysis of RNA-Seq and Whole Genome/Exome Sequ
 
 The user will have the freedom to choose any possible combination of tools. Figure 1 and 2 depicts the basic steps and outputs involved in DNA-Seq and RNA-Seq pipelines respectively.
 
-![Figure 1: DNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/dnaseq.png)
+![ Figure 1: DNA Seq pipeline. This workflow indicates the analysis steps and major output files in DNA Seq pipeline. ](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/dnaseq.png?raw=true)
 
 
-Figure 1: DNA Seq pipeline. This workflow indicates the analysis steps and major output files in DNA Seq pipeline.
 
-![enter image description here](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/rnaseq.png)
 
-Figure 2: The analysis steps and major output files in RNA Seq pipeline.
+![ Figure 2: The analysis steps and major output files in RNA Seq pipeline. ](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/rnaseq.png?raw=true)
+
+
 
 Here is a typical set of actions to run iCOMIC pipelines:
 1. Select a pipeline.
