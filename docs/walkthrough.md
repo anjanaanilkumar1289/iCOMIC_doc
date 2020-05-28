@@ -13,6 +13,7 @@ RNA Seq part enables quantification of gene expression. The pipeline provides a 
 #### 5.2. Description of the tools used
 
 Table shows the tools incorporated in iCOMIC
+
 +--------------------------+--------------------------------------------------------+------------------------------+
 |Function                  | DNA-Seq Tools                                          |RNA-Seq Tools                 |
 +--------------------------+--------------------------------------------------------+------------------------------+
