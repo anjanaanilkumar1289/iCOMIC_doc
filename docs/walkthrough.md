@@ -14,21 +14,14 @@ RNA Seq part enables quantification of gene expression. The pipeline provides a 
 
 Table shows the tools incorporated in iCOMIC
 
-+--------------------------+--------------------------------------------------------+------------------------------+
-|Function                  | DNA-Seq Tools                                          |RNA-Seq Tools                 |
-+==========================+========================================================+==============================+
-| Quality Control          | FastQC, MultiQC, Cutadapt                              | FastQC, MultiQC, Cutadapt    |
-+--------------------------+--------------------------------------------------------+------------------------------+
-|Alignment                 |GEM-Mapper, BWA-MEM, Bowtie2                            |Bowtie2, STAR, HISAT22, Salmon|
-+--------------------------+--------------------------------------------------------+------------------------------+
-|Variant Calling           |GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2| -                            |
-+--------------------------+--------------------------------------------------------+------------------------------+
-| Annotation               | Annovar, SnpEff                                        | -                            |
-+--------------------------+--------------------------------------------------------+------------------------------+
-| Expression Modeller      | -                                                      | Stringtie, HTSeq,STAR        |
-+--------------------------+--------------------------------------------------------+------------------------------+
-| Differential Expression  | -                                                      | Deseq2, Ballgown             |
-+--------------------------+--------------------------------------------------------+------------------------------+
+| Function                | DNA-Seq Tools                                          | RNA-Seq Tools                |
+|-------------------------|--------------------------------------------------------|------------------------------|
+| Quality Control         | FastQC, MultiQC, Cutadapt                              | FastQC, MultiQC, Cutadapt    |
+| Alignment               |GEM-Mapper, BWA-MEM, Bowtie2                            |Bowtie2, STAR, HISAT22, Salmon|
+| Variant Calling         |GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2| -                            |
+| Annotation              | Annovar, SnpEff                                        | -                            |
+| Expression Modeller     | -                                                      | Stringtie, HTSeq,STAR        |
+| Differential Expression | -                                                      | Deseq2, Ballgown             |
 
 
  
@@ -44,8 +37,8 @@ Table shows the tools incorporated in iCOMIC
  
   
 - Tools for Quality Control
-	1. FastQC
-	It is a popular tool that can be used to provide an overview of the basic quality control metrics for raw next generation sequencing data. There are a number different analyses (called modules) that may be performed on a sequence data set. It provides summary graphs enabling the user to decide on the directions for further analysis.
+	1. FastQC	
+		It is a popular tool that can be used to provide an overview of the basic quality control metrics for raw next generation sequencing data. There are a number different analyses (called modules) that may be performed on a sequence data set. It provides summary graphs enabling the user to decide on the directions for further analysis.
 	2.  MultiQC
 		MultiQC is a modular tool to aggregate results from bioinformatics analyses across multiple samples into a single report. It collects numerical stats from different modules enabling the user to track the behavior of the data in an efficient manner.
 	3.  Cutadapt
