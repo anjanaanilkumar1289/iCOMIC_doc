@@ -27,6 +27,8 @@ Table shows the tools incorporated in iCOMIC
 
 #
  
+# 
+ 
 | Function  | DNA-Seq Tools |RNA-Seq Tools   |
 |--|--|--|
 | Quality Control | FastQC, MultiQC, Cutadapt | FastQC, MultiQC, Cutadapt |
@@ -36,7 +38,7 @@ Table shows the tools incorporated in iCOMIC
 | Expression Modeller | - | Stringtie, HTSeq,STAR |
 | Differential Expression | - | Deseq2, Ballgown |
 
- 
+# 
   
 - Tools for Quality Control
 	1. FastQC	
