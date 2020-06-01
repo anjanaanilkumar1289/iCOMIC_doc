@@ -54,27 +54,27 @@ iCOMIC accepts input information in two different modes. The user can either fee
 
   
 
-If you are uploading a folder of fastq files, all the files should be named in the specified format:
+- If you are uploading a folder of fastq files, all the files should be named in the specified format:
 
-(sample_name)_(condition(tumor/normal))_Rep(replicate_number)_R(1 / 2).fastq
+	(sample_name)_(condition(tumor/normal))_Rep(replicate_number)_R(1 / 2).fastq
 
-Example: hcc1395_normal_Rep1_R1.fastq
+	Example: hcc1395_normal_Rep1_R1.fastq
 
   
 
-If you choose upload from table mode, the sample information should be given in a tab delimited file with a header row.
+- If you choose upload from table mode, the sample information should be given in a tab delimited file with a header row.
 
-The Column names should be:
+	The Column names should be:
 
-`Sample` : The Sample name
+	`Sample` : The Sample name
 
-`Unit` : The number of replicates
+	`Unit` : The number of replicates
 
-`Condition` : Nature of the sample, Normal or Tumor
+	`Condition` : Nature of the sample, Normal or Tumor
 
-`fq1` : The path of Read 1
+	`fq1` : The path of Read 1
 
-`fq2` : Path of Read 2, if you are working with single-end reads only, the 'fq2' column can be left blank.
+	`fq2` : Path of Read 2, if you are working with single-end reads only, the 'fq2' column can be left blank.
 
   
 
