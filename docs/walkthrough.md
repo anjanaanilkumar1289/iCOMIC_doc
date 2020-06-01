@@ -27,18 +27,9 @@ Table shows the tools incorporated in iCOMIC
 
 #
  
-# 
- 
-| Function  | DNA-Seq Tools |RNA-Seq Tools   |
-|--|--|--|
-| Quality Control | FastQC, MultiQC, Cutadapt | FastQC, MultiQC, Cutadapt |
-| Alignment|GEM-Mapper, BWA-MEM, Bowtie2|Bowtie2, STAR, HISAT22, Salmon|
-| Variant Calling|GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2|--|
-| Annotation | Annovar, SnpEff | - |
-| Expression Modeller | - | Stringtie, HTSeq,STAR |
-| Differential Expression | - | Deseq2, Ballgown |
 
-# 
+
+
   
 - Tools for Quality Control
 	1. FastQC	
@@ -47,14 +38,17 @@ Table shows the tools incorporated in iCOMIC
 		MultiQC is a modular tool to aggregate results from bioinformatics analyses across multiple samples into a single report. It collects numerical stats from different modules enabling the user to track the behavior of the data in an efficient manner.
 	3.  Cutadapt
   		Cutadapt is a trimming tool that enables the user to remove adapter and primer sequences in an error-tolerant manner. It can also aid in demultiplexing, filtering and modification of single-end and paired-end reads. Essential parameters for the tool are listed below.
-  		
-    |Parameter  | Description |
-    |--|--|
+  	
+	
+    | Parameter  | Description |
+    | -- | -- |
     | -a | 3’ Adapter sequence |
     | -g | 5’ adapter sequence |
-    | -Z|Compression level |
-    | -u (n) |Removes n reads unconditionally |
+    | -Z | Compression level |
+    | -u (n) | Removes n reads unconditionally |
     | -q | Quality cutoff|
+    
+   
     The detailed list of parameters of the tool are available in [Cutadapt documentation](https://cutadapt.readthedocs.io/en/stable/guide.html#adapter-types).
 - Aligners
 	1.  GEM-Mapper
