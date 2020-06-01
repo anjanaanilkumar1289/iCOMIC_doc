@@ -53,16 +53,16 @@ $ ‘python mainwin_v32.py’
 iCOMIC accepts input information in two different modes. The user can either feed the path to a folder containing raw fastq files or provide a table consolidating particulars of raw data.
 
   
-```
+
 If you are uploading a folder of fastq files, all the files should be named in the specified format:
 
 (sample_name)_(condition(tumor/normal))_Rep(replicate_number)_R(1 / 2).fastq
 
 Example: hcc1395_normal_Rep1_R1.fastq
-```
+
   
 
->If you choose upload from table mode, the sample information should be given in a tab delimited file with a header row.
+If you choose upload from table mode, the sample information should be given in a tab delimited file with a header row.
 
 The Column names should be:
 
