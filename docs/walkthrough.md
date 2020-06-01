@@ -39,6 +39,7 @@ Table shows the tools incorporated in iCOMIC
 	3.  Cutadapt
   		Cutadapt is a trimming tool that enables the user to remove adapter and primer sequences in an error-tolerant manner. It can also aid in demultiplexing, filtering and modification of single-end and paired-end reads. Essential parameters for the tool are listed below.
   	
+    #	
 	
     | Parameter  | Description |
     | -- | -- |
@@ -48,6 +49,7 @@ Table shows the tools incorporated in iCOMIC
     | -u (n) | Removes n reads unconditionally |
     | -q | Quality cutoff|
     
+    #
    
     The detailed list of parameters of the tool are available in [Cutadapt documentation](https://cutadapt.readthedocs.io/en/stable/guide.html#adapter-types).
 - Aligners
