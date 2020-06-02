@@ -39,19 +39,19 @@ Table shows the tools incorporated in iCOMIC
 	3.  Cutadapt
   		Cutadapt is a trimming tool that enables the user to remove adapter and primer sequences in an error-tolerant manner. It can also aid in demultiplexing, filtering and modification of single-end and paired-end reads. Essential parameters for the tool are listed below.
   	
-   	
+#   	
 	
-| Parameter  | Description |
-|--|--|
-| -a | 3’ Adapter sequence |
-| -g | 5’ adapter sequence |
-| -Z | Compression level |
-| -u (n) | Removes n reads unconditionally |
-| -q | Quality cutoff|
+	| Parameter  | Description |
+	|--|--|
+	| -a | 3’ Adapter sequence |
+	| -g | 5’ adapter sequence |
+	| -Z | Compression level |
+	| -u (n) | Removes n reads unconditionally |
+	| -q | Quality cutoff|
     
-    
-   
-    The detailed list of parameters of the tool are available in [Cutadapt documentation](https://cutadapt.readthedocs.io/en/stable/guide.html#adapter-types).
+#
+
+   The detailed list of parameters of the tool are available in [Cutadapt documentation](https://cutadapt.readthedocs.io/en/stable/guide.html#adapter-types).
 - Aligners
 	1.  GEM-Mapper
     It is a high-performance mapping tool that performs alignment of sequencing reads against large reference genomes. GEM Mapper has been identified as an efficient mapping tool by a benchmarking analysis performed along with this study. Listed below are some parameters of the tool GEM-Mapper. Others can be found in [GEM-Mapper github page](https://github.com/smarco/gem3-mapper)
