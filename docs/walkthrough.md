@@ -41,22 +41,6 @@ Table shows the tools incorporated in iCOMIC
 
 #
 
-| Function | DNA-Seq Tools | RNA-Seq Tools | 
-|--|--|--| 
-| Quality Control | FastQC, MultiQC, Cutadapt | FastQC, MultiQC, Cutadapt | 
-
-#
-
-#  	  	
-
-| Parameter | Description | RNA-Seq Tools | 
-|--|--|--| 
-| Quality Control | FastQC, MultiQC, Cutadapt | FastQC, MultiQC, Cutadapt | 
-
-#
-
-#
-
 | Parameter | Description | 
 |--|--| 
 | -a | 3’ Adapter sequence | 
@@ -66,8 +50,6 @@ Table shows the tools incorporated in iCOMIC
 | -q | Quality cutoff | 
 
 #
-     
-  
 
    The detailed list of parameters of the tool are available in [Cutadapt documentation](https://cutadapt.readthedocs.io/en/stable/guide.html#adapter-types).
 - Aligners
