@@ -50,9 +50,9 @@ Table shows the tools incorporated in iCOMIC
 
 
 - Aligners
-  1.  GEM-Mapper
+ 1. GEM-Mapper
 
-  It is a high-performance mapping tool that performs alignment of sequencing reads against large reference genomes. GEM Mapper has been identified as an efficient mapping tool by a benchmarking analysis performed along with this study. Listed below are some parameters of the tool GEM-Mapper. Other parameters can be found in [GEM-Mapper github page](https://github.com/smarco/gem3-mapper)
+ It is a high-performance mapping tool that performs alignment of sequencing reads against large reference genomes. GEM Mapper has been identified as an efficient mapping tool by a benchmarking analysis performed along with this study. Listed below are some parameters of the tool GEM-Mapper. Other parameters can be found in [GEM-Mapper github page](https://github.com/smarco/gem3-mapper)
 
 | Parameter  | Description | 
 |--|--| 
@@ -61,9 +61,9 @@ Table shows the tools incorporated in iCOMIC
 | --alignment-global-min-identity | Minimum global-alignment identity required | 
 | --alignment-global-min-score | Minimum global-alignment score required | 
 
-   2.  BWA-MEM
+2. BWA-MEM
 
-   One of the most commonly used aligners available. It is identified as a faster and accurate algorithm among the algorithms in BWA software package. It is known for aligning long sequence query reads to the reference genome and also performs chimeric alignment. The parameters for BWA-MEM include the following. The other parameters for the tool can be found in [BWA manual page](http://bio-bwa.sourceforge.net/bwa.shtml)
+ One of the most commonly used aligners available. It is identified as a faster and accurate algorithm among the algorithms in BWA software package. It is known for aligning long sequence query reads to the reference genome and also performs chimeric alignment. The parameters for BWA-MEM include the following. The other parameters for the tool can be found in [BWA manual page](http://bio-bwa.sourceforge.net/bwa.shtml)
 
 | Parameter  | Description | 
 |--|--| 
@@ -74,11 +74,10 @@ Table shows the tools incorporated in iCOMIC
 | -r | seedSplitRatio | 
 | -A | matchScore | 
 
-3.  Bowtie2
+3. Bowtie2
 
 Bowtie2 is a fast and efficient algorithm for aligning reads to a reference sequence. It comprises various modes wherein it supports local, paired-end and gapped alignment. The key parameters for Bowtie2 include the following. All parameters for Bowtie2 are listed in [Bowtie2 manual](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml#main-arguments).
 
-#
 
 | Parameter  | Description | 
 |--|--| 
@@ -88,14 +87,10 @@ Bowtie2 is a fast and efficient algorithm for aligning reads to a reference sequ
 | -N | Sets the number of mismatches to allowed in a seed alignment during multiseed alignment | 
 | dvc | the period for the difference-cover sample | 
 
-#
-
-4.  STAR
+4. STAR
 
 STAR is a rapid RNA-Seq read aligner specializing in fusion read and splice junction detection. Important parameters for STAR is given below. The other parameters for the tool can be found in [STAR manual page](https://physiology.med.cornell.edu/faculty/skrabanek/lab/angsd/lecture_notes/STARmanual.pdf)
 
-
-#
 
 | parameters |Description | 
 |----|--| 
@@ -106,11 +101,9 @@ STAR is a rapid RNA-Seq read aligner specializing in fusion read and splice junc
 | --sjdbGTFfile | /path/to/annotations.gtf | 
 | --sjdbOverhang | ReadLength-1 | 
 
-#
-5.  HISAT2 
+5. HISAT2 
 
 It is a fast and sensitive alignment program applicable for both RNA seq and Whole-Genome Sequencing data and is known for rapid and accurate alignment of sequence reads to a single reference genome. The key parameters for the tool are given below. The other parameters for the tool can be found in [HISAT2 manual](http://www.ccb.jhu.edu/software/hisat/manual.shtml)
-#
 
 | parameters |Description | 
 |--|--| 
@@ -120,11 +113,11 @@ It is a fast and sensitive alignment program applicable for both RNA seq and Who
 | --ma (int) | Sets the match bonus | 
 | --pen-cansplice (int) | Sets the penalty for each pair of canonical splice sites (e.g. GT/AG) | 
 
-#
+
 6. Salmon
 
 Salmon is a tool with dual purposes such as alignment and quantification of differential expression. Some of the parameters for the tool include the following. The other parameters for the tool can be found in [SALMON Manual Page]		(https://salmon.readthedocs.io/en/latest/salmon.html#mimicbt2)
-#
+
 
 | Parameters | Description | 
 |--|--| 
@@ -135,14 +128,14 @@ Salmon is a tool with dual purposes such as alignment and quantification of diff
 | --numBootstraps | Ables to optionally compute bootstrapped abundance estimates | 
 | -p / --threads | The number of threads that will be used for quasi-mapping, quantification, and bootstrapping / posterior sampling (if enabled) | 
 
-#
+
 
 #### -  Variant Callers
 
-1.  GATK HC
+1. GATK HC
 
 One of the extensively used variant callers. Calls variants from the aligned reds corresponding to the reference genome. Some of the parameters for GATK Haplotype caller are listed beow. The complete parameter list is available at [GATK Haplotypecaller article page](https://gatk.broadinstitute.org/hc/en-us/articles/360037225632-HaplotypeCaller)
-#
+
 
 | Parameters | Description | 
 |----|--| 
@@ -151,12 +144,9 @@ One of the extensively used variant callers. Calls variants from the aligned red
 | -mbq | Min base quality score | 
 | -minReadsPerAlignStart | Min Reads Per Alignment Start | 
 
-#
-2.  Samtools mpileup
+2. Samtools mpileup
 
 Samtools mpileup together with BCFtools call identifies the variants. Some key parameters to look are listed below. Parameters in detail are found in [Samtools-mpileup manual page](http://www.htslib.org/doc/samtools-mpileup.html)
-
-#
 
 | Parameter  | Description | 
 |--|--| 
@@ -164,11 +154,11 @@ Samtools mpileup together with BCFtools call identifies the variants. Some key p
 | -q | Minimum mapping quality for an alignment to be used | 
 | -Q | Minimum base quality for a base to be considered | 
 
-#
-3.  FreeBayes
+
+3. FreeBayes
 
 FreeBayes is a variant detector developed to identify SNPs, Indels, MNPs and complex variants with respect to the reference genome. Key parameters for FreeBayes are listed below. Other parameters can be found in detain in [FreeBayes parameter page](https://vcru.wisc.edu/simonlab/bioinformatics/programs/freebayes/parameters.txt)
-#
+
 
 | Parameter  | Description | 
 |--|--| 
@@ -178,12 +168,11 @@ FreeBayes is a variant detector developed to identify SNPs, Indels, MNPs and com
 | -! | minimum coverage | 
 | -U | read mismatch limit | 
 
-#
 
-4.  GATK Mutect2
+4. GATK Mutect2
 
-	This tool identifies somatic mutations such as indels and SNAs in a diseased sample compared to the provided normal sample, using the haplotype assembly strategy. Parameters specific to Mutect2 include the following. The complete parameter list is available at [GATK Mutect2 manual page](https://gatk.broadinstitute.org/hc/en-us/articles/360037593851-Mutect2)
-#
+This tool identifies somatic mutations such as indels and SNAs in a diseased sample compared to the provided normal sample, using the haplotype assembly strategy. Parameters specific to Mutect2 include the following. The complete parameter list is available at [GATK Mutect2 manual page](https://gatk.broadinstitute.org/hc/en-us/articles/360037593851-Mutect2)
+
 
 | Parameter  | Description | 
 |--|--| 
@@ -192,17 +181,15 @@ FreeBayes is a variant detector developed to identify SNPs, Indels, MNPs and com
 | --max-reads-per-alignment-start | Maximum number of reads to retain per alignment start position. | 
 | -mbq | Minimum base quality required to consider a base for calling |
 
-#
 
-5.  MuSE
+5. MuSE
 
 MuSe is a tool that calls somatic point mutations in normal-tumor sample pairs using a Markov substitution model for evolution. More information about the tool can be found in[MuSE variant caller tool page](https://bioinformatics.mdanderson.org/public-software/muse/)
 
-#### - Annotators
-1.  SnpEff
+- Annotators
+1. SnpEff
 
 SnpEff tool performs genomic variant annotations and functional effect prediction. Key parameters for the tool SnpEff are listed below.  Detailed list of parameters is given in [SnpEff manual page](http://snpeff.sourceforge.net/SnpEff_manual.html#cmdline)
-#
 
 | Parameter  | Description | 
 |--|--| 
@@ -212,11 +199,10 @@ SnpEff tool performs genomic variant annotations and functional effect predictio
 | -v | Verbose mode | 
 | -csvStats | Create CSV summary file instead of HTML | 
 
-#
-2.  Annovar
+2. Annovar
 
 Annovar can be used to efficiently annotate functional variants such as SNVs and indels, detected from diverse genomes. The tool also provides the user with multiple annotation strategies namely Gene-based, region-based and filter-based. Key parameters for Annovar include the following. Details of the tool can be found in [Annovar documentation page](http://annovar.openbioinformatics.org/en/latest/user-guide/gene/)
-#
+
 
 | Parameter  | Description | 
 |--|--| 
@@ -225,13 +211,12 @@ Annovar can be used to efficiently annotate functional variants such as SNVs and
 | --maxgenethread | max number of threads for gene-based annotation | 
 | --batchsize | batch size for processing variants per batch (default: 5m) | 
 
-#
 
 #### -  Expression modellers
-1.  StringTie
+1. StringTie
 
 StringTie is known for efficient and rapid assembly of RNA-Seq alignments into possible transcripts. It employs a novel network flow algorithm and an optional de novo assembly algorithm to assemble the alignments. The important parameters to look into are listed below. The other parameters for the tool can be found in [STRINGTIE Manual Page](http://ccb.jhu.edu/software/stringtie/index.shtml?t=manual)
-#
+
 
 |  Parameters | Description | 
 |----|--| 
@@ -241,12 +226,10 @@ StringTie is known for efficient and rapid assembly of RNA-Seq alignments into p
 | -l (label) | Sets (label) as the prefix for the name of the output transcripts | 
 | -m (int) | Sets the minimum length allowed for the predicted transcripts | 
 
-#
 
-2.  HTSeq
+2. HTSeq
 
 HTSeq facilitates in counting the number of mapped reads to each gene. It provides the user with multiple modes of usage and also allows the creation of custom scripts. Key parameters for the tool are given below. The other parameters for the tool can be found in [HTSEQ Manual Page](https://htseq.readthedocs.io/en/release_0.11.1/count.html))
-#
 
 | Parameters | Description | 
 |----|--| 
@@ -256,13 +239,11 @@ HTSeq facilitates in counting the number of mapped reads to each gene. It provid
 | -a | skip all reads with alignment quality lower than the given minimum value | 
 | -m | Mode to handle reads overlapping more than one feature | 
 
-#
 
 #### -  Differential Expression tools
-1.  Ballgown
+1. Ballgown
 
 Ballgown is an R language based tool that enables the statistical analysis of assembled transcripts and differential expression analysis along with its visualization. Key arguments for the tool are given below. The other arguments for the tool can be found in [Ballgown Manual](https://www.bioconductor.org/packages/release/bioc/manuals/ballgown/man/ballgown.pdf)
-#
 
 |  Arguments | Description | 
 |----|--| 
@@ -273,12 +254,10 @@ Ballgown is an R language based tool that enables the statistical analysis of as
 | pData | optional data.frame with rows corresponding to samples and columns corresponding to phenotypic variables | 
 | meas | character vector containing either "all" or one or more of: "rcount", "ucount", "mrcount", "cov", "cov_sd", "mcov", "mcov_sd", or "FPKM" | 
 
-#
 
-2.  Deseq2
+2. Deseq2
 
 It Uses negative binomial distribution for testing differential expression using R language. Some of the arguments to look into are given below. The other arguments for the tool can be found in [DESEQ2 Manual Page](https://bioconductor.org/packages/release/bioc/manuals/DESeq2/man/DESeq2.pdf)
-#
 
 | Arguments | Description | 
 |----|--| 
@@ -288,5 +267,5 @@ It Uses negative binomial distribution for testing differential expression using
 | renameCols | whether to rename the columns of the returned object using the levels of the grouping factor | 
 |  value | an integer matrix | 
 
-#
+
 
