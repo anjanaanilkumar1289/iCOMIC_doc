@@ -52,62 +52,83 @@ Table shows the tools incorporated in iCOMIC
 #
 
    The detailed list of parameters of the tool are available in [Cutadapt documentation](https://cutadapt.readthedocs.io/en/stable/guide.html#adapter-types).
-- Aligners
-  1.  GEM-Mapper
+- #### Aligners
+ 1.  GEM-Mapper
   
-  	It is a high-performance mapping tool that performs alignment of sequencing reads against large reference genomes. GEM Mapper has been identified as an efficient mapping tool by a benchmarking analysis performed along with this study. Listed below are some parameters of the tool GEM-Mapper. 
+  It is a high-performance mapping tool that performs alignment of sequencing reads against large reference genomes. GEM Mapper has been identified as an efficient mapping tool by a benchmarking analysis performed along with this study. Listed below are some parameters of the tool GEM-Mapper. 
   
-	#
-	
-	| Parameter  | Description | 
-	|--|--| 
-	| -t | Threads | 
-	| -e | --alignment-max-error | 
-	| --alignment-global-min-identity | Minimum global-alignment identity required | 
-	| --alignment-global-min-score | Minimum global-alignment score required | 
-	
-	#
-	Other parameters can be found in [GEM-Mapper github page](https://github.com/smarco/gem3-mapper)
-    
-    2.  BWA-MEM
-    
-	One of the most commonly used aligners available. It is identified as a faster and accurate algorithm among the algorithms in BWA software package. It is known for aligning long sequence query reads to the reference genome and also performs chimeric alignment. The parameters for BWA-MEM include
-	
-|Parameter  | Description |
-|--|--|
-| -t | Threads |
-| -k | minSeedLength |
-| -w |Band width |
-| -d |Z-dropoff |
-| -r |seedSplitRatio |
-|-A |matchScore |
-The other parameters for the tool can be found in [BWA manual page](http://bio-bwa.sourceforge.net/bwa.shtml)
-  3.  Bowtie2
-  Bowtie2 is a fast and efficient algorithm for aligning reads to a reference sequence. It comprises various modes wherein it supports local, paired-end and gapped alignment. The key parameters for Bowtie2 include:
-    
-    |Parameter  | Description |
-	|--|--|
-	| --threads | Threads |
-	| --cutoff (n) | Index only the first (n)  bases of the reference sequences (cumulative across sequences) and ignore the rest. |
-	| -seed |The seed for pseudo-random number generator. |
-	| -N | Sets the number of mismatches to allowed in a seed alignment during [multiseed alignment
-	| dvc |the period for the difference-cover sample |
-	All parameters for Bowtie2 are listed in [Bowtie2 manual](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml#main-arguments)
-	4.  STAR
-   STAR is a rapid RNA-Seq read aligner specializing in fusion read and splice junction detection. Important parameters for STAR is given below.
-    
-    |parameters |Description |
-	|----|--|
-	|- - runThreadN |NumberOfThreads
-	| - -runMode |genomeGenerate
-	|- -genomeDir|/path/to/genomeDir|
-	|--genomeFastaFiles | /path/to/genome/fasta1 /path/to/genome/fasta2 |
-	| --sjdbGTFfile |/path/to/annotations.gtf
-	|--sjdbOverhang|ReadLength-1|
-	The other parameters for the tool can be found in [STAR manual page](https://physiology.med.cornell.edu/faculty/skrabanek/lab/angsd/lecture_notes/STARmanual.pdf)
+#
 
-	5.  HISAT2 
-	 It is a fast and sensitive alignment program applicable for both RNA seq and Whole-Genome Sequencing data and is known for rapid and accurate alignment of sequence reads to a single reference genome. The key parameters for the tool are given below.
+| Parameter  | Description | 
+|--|--| 
+| -t | Threads | 
+| -e | --alignment-max-error |  
+| --alignment-global-min-identity | Minimum global-alignment identity required | 
+| --alignment-global-min-score | Minimum global-alignment score required | 
+
+#
+
+  Other parameters can be found in [GEM-Mapper github page](https://github.com/smarco/gem3-mapper)
+  
+   2.  BWA-MEM
+    
+   One of the most commonly used aligners available. It is identified as a faster and accurate algorithm among the algorithms in BWA software package. It is known for aligning long sequence query reads to the reference genome and also performs chimeric alignment. The parameters for BWA-MEM include
+
+#
+
+| Parameter  | Description | 
+|--|--| 
+| -t | Threads | 
+| -k | minSeedLength | 
+| -w | Band width | 
+| -d | Z-dropoff | 
+| -r | seedSplitRatio | 
+| -A | matchScore | 
+
+#
+
+The other parameters for the tool can be found in [BWA manual page](http://bio-bwa.sourceforge.net/bwa.shtml)
+
+  3.  Bowtie2
+  
+  Bowtie2 is a fast and efficient algorithm for aligning reads to a reference sequence. It comprises various modes wherein it supports local, paired-end and gapped alignment. The key parameters for Bowtie2 include:
+
+#
+
+| Parameter  | Description | 
+|--|--| 
+| --threads | Threads | 
+| --cutoff (n) | Index only the first (n)  bases of the reference sequences (cumulative across sequences) and ignore the rest. | 
+| -seed | The seed for pseudo-random number generator | 
+| -N | Sets the number of mismatches to allowed in a seed alignment during multiseed alignment | 
+| dvc | the period for the difference-cover sample | 
+
+#
+
+All parameters for Bowtie2 are listed in [Bowtie2 manual](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml#main-arguments)
+
+  4.  STAR
+  
+  STAR is a rapid RNA-Seq read aligner specializing in fusion read and splice junction detection. Important parameters for STAR is given below.
+
+#
+
+| parameters |Description | 
+|----|--| 
+| -- runThreadN | NumberOfThreads | 
+| --runMode | genomeGenerate | 
+| --genomeDir | /path/to/genomeDir | 
+| --genomeFastaFiles | /path/to/genome/fasta1 /path/to/genome/fasta2 | 
+| --sjdbGTFfile | /path/to/annotations.gtf | 
+| --sjdbOverhang | ReadLength-1 | 
+
+#
+  
+  The other parameters for the tool can be found in [STAR manual page](https://physiology.med.cornell.edu/faculty/skrabanek/lab/angsd/lecture_notes/STARmanual.pdf)
+
+  5.  HISAT2 
+  
+  It is a fast and sensitive alignment program applicable for both RNA seq and Whole-Genome Sequencing data and is known for rapid and accurate alignment of sequence reads to a single reference genome. The key parameters for the tool are given below.
 	 
 	| parameters |Description |
 	|--|--|
