@@ -49,7 +49,7 @@ Table shows the tools incorporated in iCOMIC
 
 #  	  	
   	
-| Parameter  | Description | RNA-Seq Tools | 
+| Parameter | Description | RNA-Seq Tools | 
 |--|--|--| 
 | Quality Control | FastQC, MultiQC, Cutadapt | FastQC, MultiQC, Cutadapt | 
 
