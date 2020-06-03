@@ -52,8 +52,9 @@ Table shows the tools incorporated in iCOMIC
 #
 
    The detailed list of parameters of the tool are available in [Cutadapt documentation](https://cutadapt.readthedocs.io/en/stable/guide.html#adapter-types).
-- #### Aligners
- 1.  GEM-Mapper
+   
+ #### Aligners
+   1.  GEM-Mapper
   
   It is a high-performance mapping tool that performs alignment of sequencing reads against large reference genomes. GEM Mapper has been identified as an efficient mapping tool by a benchmarking analysis performed along with this study. Listed below are some parameters of the tool GEM-Mapper. 
   
