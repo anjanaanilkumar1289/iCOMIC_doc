@@ -37,7 +37,7 @@ Table shows the tools incorporated in iCOMIC
 2.  MultiQC
 	MultiQC is a modular tool to aggregate results from bioinformatics analyses across multiple samples into a single report. It collects numerical stats from different modules enabling the user to track the behavior of the data in an efficient manner.
 3.  Cutadapt
-	Cutadapt is a trimming tool that enables the user to remove adapter and primer sequences in an error-tolerant manner. It can also aid in demultiplexing, filtering and modification of single-end and paired-end reads. Essential parameters for the tool are listed below.
+	Cutadapt is a trimming tool that enables the user to remove adapter and primer sequences in an error-tolerant manner. It can also aid in demultiplexing, filtering and modification of single-end and paired-end reads. Essential parameters for the tool are listed below. The detailed list of parameters of the tool are available in [Cutadapt documentation](https://cutadapt.readthedocs.io/en/stable/guide.html#adapter-types).
 
 #
 
@@ -51,8 +51,6 @@ Table shows the tools incorporated in iCOMIC
 
 #
 
-   The detailed list of parameters of the tool are available in [Cutadapt documentation](https://cutadapt.readthedocs.io/en/stable/guide.html#adapter-types).
-   
  #### - Aligners
 1.  GEM-Mapper
 
@@ -71,7 +69,8 @@ Other parameters can be found in [GEM-Mapper github page](https://github.com/sma
   
 2.  BWA-MEM
 
-One of the most commonly used aligners available. It is identified as a faster and accurate algorithm among the algorithms in BWA software package. It is known for aligning long sequence query reads to the reference genome and also performs chimeric alignment. The parameters for BWA-MEM include
+One of the most commonly used aligners available. It is identified as a faster and accurate algorithm among the algorithms in BWA software package. It is known for aligning long sequence query reads to the reference genome and also performs chimeric alignment. The parameters for BWA-MEM include the following. The other parameters for the tool can be found in [BWA manual page](http://bio-bwa.sourceforge.net/bwa.shtml)
+
 #
 
 | Parameter  | Description | 
@@ -84,7 +83,6 @@ One of the most commonly used aligners available. It is identified as a faster a
 | -A | matchScore | 
 
 #
-The other parameters for the tool can be found in [BWA manual page](http://bio-bwa.sourceforge.net/bwa.shtml)
 
 3.  Bowtie2
 
