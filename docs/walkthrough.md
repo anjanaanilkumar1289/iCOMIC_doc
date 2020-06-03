@@ -186,7 +186,7 @@ This tool identifies somatic mutations such as indels and SNAs in a diseased sam
 
 MuSe is a tool that calls somatic point mutations in normal-tumor sample pairs using a Markov substitution model for evolution. More information about the tool can be found in[MuSE variant caller tool page](https://bioinformatics.mdanderson.org/public-software/muse/)
 
-- Annotators
+#### - Annotators
 1. SnpEff
 
 SnpEff tool performs genomic variant annotations and functional effect prediction. Key parameters for the tool SnpEff are listed below.  Detailed list of parameters is given in [SnpEff manual page](http://snpeff.sourceforge.net/SnpEff_manual.html#cmdline)
