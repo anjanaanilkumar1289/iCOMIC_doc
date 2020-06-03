@@ -42,6 +42,12 @@ Table shows the tools incorporated in iCOMIC
 #  	  	
   	
 | Parameter  | Description |
+
+#
+
+#  	  	
+  	
+| Parameter  | Description |
 | -- | -- |
 | -a | 3’ Adapter sequence |
 | -g | 5’ adapter sequence |
