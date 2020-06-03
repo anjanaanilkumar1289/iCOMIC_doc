@@ -45,7 +45,6 @@ Table shows the tools incorporated in iCOMIC
 |--|--|--| 
 | Quality Control | FastQC, MultiQC, Cutadapt | FastQC, MultiQC, Cutadapt | 
 | Alignment | GEM-Mapper, BWA-MEM, Bowtie2 | Bowtie2, STAR, HISAT22, Salmon | 
-| Variant Calling | GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2 | - | 
 
 #
 
