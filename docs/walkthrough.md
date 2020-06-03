@@ -54,10 +54,9 @@ Table shows the tools incorporated in iCOMIC
    The detailed list of parameters of the tool are available in [Cutadapt documentation](https://cutadapt.readthedocs.io/en/stable/guide.html#adapter-types).
    
  #### - Aligners
-   1.  GEM-Mapper
-  
-  It is a high-performance mapping tool that performs alignment of sequencing reads against large reference genomes. GEM Mapper has been identified as an efficient mapping tool by a benchmarking analysis performed along with this study. Listed below are some parameters of the tool GEM-Mapper. 
-  
+1.  GEM-Mapper
+
+It is a high-performance mapping tool that performs alignment of sequencing reads against large reference genomes. GEM Mapper has been identified as an efficient mapping tool by a benchmarking analysis performed along with this study. Listed below are some parameters of the tool GEM-Mapper.   
 #
 
 | Parameter  | Description | 
@@ -68,13 +67,11 @@ Table shows the tools incorporated in iCOMIC
 | --alignment-global-min-score | Minimum global-alignment score required | 
 
 #
-
-  Other parameters can be found in [GEM-Mapper github page](https://github.com/smarco/gem3-mapper)
+Other parameters can be found in [GEM-Mapper github page](https://github.com/smarco/gem3-mapper)
   
-   2.  BWA-MEM
-    
-   One of the most commonly used aligners available. It is identified as a faster and accurate algorithm among the algorithms in BWA software package. It is known for aligning long sequence query reads to the reference genome and also performs chimeric alignment. The parameters for BWA-MEM include
+2.  BWA-MEM
 
+One of the most commonly used aligners available. It is identified as a faster and accurate algorithm among the algorithms in BWA software package. It is known for aligning long sequence query reads to the reference genome and also performs chimeric alignment. The parameters for BWA-MEM include
 #
 
 | Parameter  | Description | 
@@ -87,12 +84,11 @@ Table shows the tools incorporated in iCOMIC
 | -A | matchScore | 
 
 #
-
 The other parameters for the tool can be found in [BWA manual page](http://bio-bwa.sourceforge.net/bwa.shtml)
 
-  3.  Bowtie2
-  
-  Bowtie2 is a fast and efficient algorithm for aligning reads to a reference sequence. It comprises various modes wherein it supports local, paired-end and gapped alignment. The key parameters for Bowtie2 include:
+3.  Bowtie2
+
+Bowtie2 is a fast and efficient algorithm for aligning reads to a reference sequence. It comprises various modes wherein it supports local, paired-end and gapped alignment. The key parameters for Bowtie2 include:
 
 #
 
