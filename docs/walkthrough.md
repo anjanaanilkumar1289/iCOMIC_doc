@@ -49,7 +49,7 @@ Table shows the tools incorporated in iCOMIC
   | -u (n) | Removes n reads unconditionally |
   | -q | Quality cutoff |
 
- #
+  #
      
   
 
