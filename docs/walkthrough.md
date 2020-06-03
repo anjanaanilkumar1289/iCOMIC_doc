@@ -39,11 +39,16 @@ Table shows the tools incorporated in iCOMIC
 	3.  Cutadapt
   		Cutadapt is a trimming tool that enables the user to remove adapter and primer sequences in an error-tolerant manner. It can also aid in demultiplexing, filtering and modification of single-end and paired-end reads. Essential parameters for the tool are listed below.
 
-#  	  	
-  	
+#
+
 | Function | DNA-Seq Tools | RNA-Seq Tools | 
 |--|--|--| 
 | Quality Control | FastQC, MultiQC, Cutadapt | FastQC, MultiQC, Cutadapt | 
+| Alignment | GEM-Mapper, BWA-MEM, Bowtie2 | Bowtie2, STAR, HISAT22, Salmon | 
+| Variant Calling | GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2 | - | 
+| Annotation | Annovar, SnpEff | - | 
+| Expression Modeller | - | Stringtie, HTSeq,STAR | 
+| Differential Expression | - | Deseq2, Ballgown | 
 
 #
 
