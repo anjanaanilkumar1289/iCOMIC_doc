@@ -61,9 +61,9 @@ Table shows the tools incorporated in iCOMIC
 | --alignment-global-min-identity | Minimum global-alignment identity required | 
 | --alignment-global-min-score | Minimum global-alignment score required | 
 
-  2.  BWA-MEM
+   2.  BWA-MEM
 
-  One of the most commonly used aligners available. It is identified as a faster and accurate algorithm among the algorithms in BWA software package. It is known for aligning long sequence query reads to the reference genome and also performs chimeric alignment. The parameters for BWA-MEM include the following. The other parameters for the tool can be found in [BWA manual page](http://bio-bwa.sourceforge.net/bwa.shtml)
+   One of the most commonly used aligners available. It is identified as a faster and accurate algorithm among the algorithms in BWA software package. It is known for aligning long sequence query reads to the reference genome and also performs chimeric alignment. The parameters for BWA-MEM include the following. The other parameters for the tool can be found in [BWA manual page](http://bio-bwa.sourceforge.net/bwa.shtml)
 
 | Parameter  | Description | 
 |--|--| 
