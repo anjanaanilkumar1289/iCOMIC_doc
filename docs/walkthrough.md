@@ -42,7 +42,7 @@ Table shows the tools incorporated in iCOMIC
 #  	  	
   	
 | Parameter  | Description |
-| -- | -- |
+|--|--|
 | a | 3 Adapter sequence |
 
 #
