@@ -58,15 +58,15 @@ Table shows the tools incorporated in iCOMIC
   	It is a high-performance mapping tool that performs alignment of sequencing reads against large reference genomes. GEM Mapper has been identified as an efficient mapping tool by a benchmarking analysis performed along with this study. Listed below are some parameters of the tool GEM-Mapper. 
   
 	#
-        
+	
 	| Parameter  | Description | 
 	|--|--| 
 	| -t | Threads | 
 	| -e | --alignment-max-error | 
 	| --alignment-global-min-identity | Minimum global-alignment identity required | 
 	| --alignment-global-min-score | Minimum global-alignment score required | 
-        
-	#	
+	
+	#
 	Other parameters can be found in [GEM-Mapper github page](https://github.com/smarco/gem3-mapper)
     
     2.  BWA-MEM
