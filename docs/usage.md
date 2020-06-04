@@ -68,9 +68,9 @@ Displays the annotated `vcf` file.
 
   
 
-#### 4.2. Analysis steps RNA Seq
+#### 4.2. Analysis steps RNA-Seq
 
-`RNA Seq` part allows you to identify the differentially expressed genes from RNA Sequencing data.iCOMIC integrates a combination of 3 aligners, 3 expression modellers and 2 differential expression tools along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
+`RNA-Seq` part allows you to identify the differentially expressed genes from RNA Sequencing data. iCOMIC integrates a combination of 3 aligners, 3 expression modellers and 2 differential expression tools along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
 
   
 
@@ -80,7 +80,7 @@ Displays the annotated `vcf` file.
 
 ##### 4.2.1. Input Requirements
 
-Similar to the DNA-Seq pipeline, the major requirement here is also raw `fastq` files, either single-end or paired-end. Fastq read details can be specified in two different methods, either by uploading a folder containing the reads or using a tab-separated file describing the reads. Refer to the `Input file format` section for preparing the input reads. Furthermore, the RNA Seq part demands a path to the reference genome, a `fasta` file, annotated file in `gtf` format, and a transcript file.
+Similar to the DNA-Seq pipeline, the major requirement here is also raw `fastq` files, either single-end or paired-end. Fastq read details can be specified in two different methods, either by uploading a folder containing the reads or using a tab-separated file describing the reads. Refer to the `Input file format` section for preparing the input reads. Furthermore, the RNA-Seq part demands a path to the reference genome, a `fasta` file, annotated file in `gtf` format, and a transcript file.
 
 Once all the fields are filled, you can proceed to the `Quality Control` tab using the next button.
 
