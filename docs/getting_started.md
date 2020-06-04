@@ -120,16 +120,16 @@ Here is a typical set of actions to run iCOMIC pipelines:
 
 13. Once the analysis is completed, `Results` tab will be opened.
 
-14. DNA Seq results include a MultiQC report comprising the statistics of the entire analysis. A file consisting of the variants called and the corresponding annotated variant file.
+14. DNA-Seq results include a MultiQC report comprising the statistics of the entire analysis. A file consisting of the variants called and the corresponding annotated variant file.
 
-15. Results for RNA Seq analysis include multiQC analysis statistics, R plots such as MA plot, Heatmap, PCA plot and box plot and list of differentially expressed genes.
+15. Results for RNA-Seq analysis include multiQC analysis statistics, R plots such as MA plot, Heatmap, PCA plot and box plot and list of differentially expressed genes.
 
 #### 3.8. Output information
 
 All outputs are stored in separate folders inside the main folder iCOMIC, for each pipeline along with log information.
 
 - DNA-Seq
-DNA Seq analysis generates five output folders as follows.
+DNA-Seq analysis generates five output folders as follows.
 	- MultiQC
 	Contains subfolders MultiQC, FastQC and Cutadapt. MultiQC contains consolidated `html` reports on the overall run statistics and a separate `html` file on merged FastQC reports of all the input samples. The folder FastQC contains quality reports of individual samples. It may also enclose FastQC report of trimmed reads if the user opts for trimming the input reads. The folder Cutadapt contains trimmed `fastq` files.
 	- Aligner
