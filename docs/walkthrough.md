@@ -5,7 +5,7 @@
 - WGS data analysis
 Enables the user to identify variants from raw sequencing reads and functionally annotate them. Multiple tools are integrated in the WGS analysis pipeline.
 - RNA-Seq data analysis
-RNA Seq part enables quantification of gene expression. The pipeline provides a final output of a list of differentially expressed genes.
+RNA-Seq part enables quantification of gene expression. The pipeline provides a final output of a list of differentially expressed genes.
 (to be constructed as provided in the CANEapp manual)
 
   
@@ -33,10 +33,13 @@ Table shows the tools incorporated in iCOMIC
   
 #### - Tools for Quality Control
 1. FastQC	
+
 	It is a popular tool that can be used to provide an overview of the basic quality control metrics for raw next generation sequencing data. There are a number different analyses (called modules) that may be performed on a sequence data set. It provides summary graphs enabling the user to decide on the directions for further analysis.
 2.  MultiQC
+
 	MultiQC is a modular tool to aggregate results from bioinformatics analyses across multiple samples into a single report. It collects numerical stats from different modules enabling the user to track the behavior of the data in an efficient manner.
 3.  Cutadapt
+
 	Cutadapt is a trimming tool that enables the user to remove adapter and primer sequences in an error-tolerant manner. It can also aid in demultiplexing, filtering and modification of single-end and paired-end reads. Essential parameters for the tool are listed below. The detailed list of parameters of the tool are available in [Cutadapt documentation](https://cutadapt.readthedocs.io/en/stable/guide.html#adapter-types).
 
 
@@ -101,7 +104,7 @@ STAR is a rapid RNA-Seq read aligner specializing in fusion read and splice junc
 
 5. HISAT2 
 
-It is a fast and sensitive alignment program applicable for both RNA seq and Whole-Genome Sequencing data and is known for rapid and accurate alignment of sequence reads to a single reference genome. The key parameters for the tool are given below. The other parameters for the tool can be found in [HISAT2 manual](http://www.ccb.jhu.edu/software/hisat/manual.shtml)
+It is a fast and sensitive alignment program applicable for both RNA-seq and Whole-Genome Sequencing data and is known for rapid and accurate alignment of sequence reads to a single reference genome. The key parameters for the tool are given below. The other parameters for the tool can be found in [HISAT2 manual](http://www.ccb.jhu.edu/software/hisat/manual.shtml)
 
 | parameters |Description | 
 |--|--| 
