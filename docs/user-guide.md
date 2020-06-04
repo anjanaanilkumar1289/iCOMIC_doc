@@ -25,13 +25,13 @@ iCOMIC (**I**ntegrating **C**ontext **O**f **M**utation **I**n **C**ancer) an op
 	8. Output Information
 	9. FAQs
  4. Using iCOMIC for DNA-Seq or RNA-Seq analysis
-	1. Analysis steps in DNA Seq
+	1. Analysis steps in DNA-Seq
 		1. Input Requirements
 		2. Review of input samples
 		3. Setting up your custom pipeline
 		4. Initialization of the analysis
 		5. Results a quick check
-	2. Analysis steps in RNA Seq 
+	2. Analysis steps in RNA-Seq 
 		1. Input Requirements
 		2. Review of input samples
 		3. Setting up your custom pipeline
@@ -49,10 +49,10 @@ iCOMIC (**I**ntegrating **C**ontext **O**f **M**utation **I**n **C**ancer) an op
 
  7. Viewing and analyzing results
 	 1.  MultiQC Reports
-	 2. Plots generated in RNA Seq
+	 2. Plots generated in RNA-Seq
 	 3. List of differentially expressed genes
-	 4. Variants in DNA Seq
-	 5. Annotated variants in DNA Seq
+	 4. Variants in DNA-Seq
+	 5. Annotated variants in DNA-Seq
 
  8. Gallery
 	 1. Screenshots
@@ -62,7 +62,7 @@ iCOMIC (**I**ntegrating **C**ontext **O**f **M**utation **I**n **C**ancer) an op
 	 1. Installation
 	 2. Configuring iCOMIC
 	 3. Analysis using test data WGS
-	 4. Analysis using test data RNA Seq
+	 4. Analysis using test data RNA-Seq
 	 5. Results
    
 
