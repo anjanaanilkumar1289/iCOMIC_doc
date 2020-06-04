@@ -50,7 +50,7 @@ Table shows the tools incorporated in iCOMIC
 
 
 #### - Aligners
- 1) GEM-Mapper
+1. GEM-Mapper
 
  It is a high-performance mapping tool that performs alignment of sequencing reads against large reference genomes. GEM Mapper has been identified as an efficient mapping tool by a benchmarking analysis performed along with this study. Listed below are some parameters of the tool GEM-Mapper. Other parameters can be found in [GEM-Mapper github page](https://github.com/smarco/gem3-mapper)
 
@@ -61,7 +61,7 @@ Table shows the tools incorporated in iCOMIC
 | --alignment-global-min-identity | Minimum global-alignment identity required | 
 | --alignment-global-min-score | Minimum global-alignment score required | 
 
-2) BWA-MEM
+2. BWA-MEM
 
  One of the most commonly used aligners available. It is identified as a faster and accurate algorithm among the algorithms in BWA software package. It is known for aligning long sequence query reads to the reference genome and also performs chimeric alignment. The parameters for BWA-MEM include the following. The other parameters for the tool can be found in [BWA manual page](http://bio-bwa.sourceforge.net/bwa.shtml)
 
@@ -74,7 +74,7 @@ Table shows the tools incorporated in iCOMIC
 | -r | seedSplitRatio | 
 | -A | matchScore | 
 
-3) Bowtie2
+3. Bowtie2
 
 Bowtie2 is a fast and efficient algorithm for aligning reads to a reference sequence. It comprises various modes wherein it supports local, paired-end and gapped alignment. The key parameters for Bowtie2 include the following. All parameters for Bowtie2 are listed in [Bowtie2 manual](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml#main-arguments).
 
