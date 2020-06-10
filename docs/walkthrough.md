@@ -23,7 +23,7 @@ Table shows the tools incorporated in iCOMIC
 | Variant Calling | GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2 | - | 
 | Annotation | Annovar, SnpEff | - | 
 | Expression Modeller | - | StringTie, HTSeq,STAR | 
-| Differential Expression | - | Deseq2, Ballgown | 
+| Differential Expression | - | DESeq2, ballgown | 
 
 #
  
@@ -244,9 +244,9 @@ HTSeq facilitates in counting the number of mapped reads to each gene. It provid
 
 
 #### -  Differential Expression tools
-###### Ballgown
+###### ballgown
 
-Ballgown is an R language based tool that enables the statistical analysis of assembled transcripts and differential expression analysis along with its visualization. Key arguments for the tool are given below. The other arguments for the tool can be found in [Ballgown Manual page](https://www.bioconductor.org/packages/release/bioc/manuals/ballgown/man/ballgown.pdf)
+ballgown is an R language based tool that enables the statistical analysis of assembled transcripts and differential expression analysis along with its visualization. Key arguments for the tool are given below. The other arguments for the tool can be found in [ballgown Manual page](https://www.bioconductor.org/packages/release/bioc/manuals/ballgown/man/ballgown.pdf)
 
 |  Arguments | Description | 
 |----|--| 
@@ -258,7 +258,7 @@ Ballgown is an R language based tool that enables the statistical analysis of as
 | meas | character vector containing either "all" or one or more of: "rcount", "ucount", "mrcount", "cov", "cov_sd", "mcov", "mcov_sd", or "FPKM" | 
 
 
-###### Deseq2
+###### DESeq2
 
 It Uses negative binomial distribution for testing differential expression using R language. Some of the arguments to look into are given below. The other arguments for the tool can be found in [DESeq2 Manual Page](https://bioconductor.org/packages/release/bioc/manuals/DESeq2/man/DESeq2.pdf)
 
