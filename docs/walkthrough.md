@@ -218,7 +218,7 @@ Annovar can be used to efficiently annotate functional variants such as SNVs and
 #### -  Expression modellers
 ###### StringTie
 
-StringTie is known for efficient and rapid assembly of RNA-Seq alignments into possible transcripts. It employs a novel network flow algorithm and an optional de novo assembly algorithm to assemble the alignments. The important parameters to look into are listed below. The other parameters for the tool can be found in [STRINGTIE Manual Page](http://ccb.jhu.edu/software/stringtie/index.shtml?t=manual)
+StringTie is known for efficient and rapid assembly of RNA-Seq alignments into possible transcripts. It employs a novel network flow algorithm and an optional de novo assembly algorithm to assemble the alignments. The important parameters to look into are listed below. The other parameters for the tool can be found in [StringTie Manual Page](http://ccb.jhu.edu/software/stringtie/index.shtml?t=manual)
 
 
 |  Parameters | Description | 
