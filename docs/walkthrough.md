@@ -106,7 +106,7 @@ STAR is a rapid RNA-Seq read aligner specializing in fusion read and splice junc
 
 ###### HISAT2 
 
-It is a fast and sensitive alignment program applicable for both RNA-seq and Whole-Genome Sequencing data and is known for rapid and accurate alignment of sequence reads to a single reference genome. The key parameters for the tool are given below. The other parameters for the tool can be found in [HISAT2 manual](http://www.ccb.jhu.edu/software/hisat/manual.shtml)
+It is a fast and sensitive alignment program applicable for both RNA-seq and Whole-Genome Sequencing data and is known for rapid and accurate alignment of sequence reads to a single reference genome. The key parameters for the tool are given below. The other parameters for the tool can be found in [HISAT2 manual page](http://www.ccb.jhu.edu/software/hisat/manual.shtml)
 
 | parameters |Description | 
 |--|--| 
@@ -119,7 +119,7 @@ It is a fast and sensitive alignment program applicable for both RNA-seq and Who
 
 ###### Salmon
 
-Salmon is a tool with dual purposes such as alignment and quantification of differential expression. Some of the parameters for the tool include the following. The other parameters for the tool can be found in [SALMON Manual Page]		(https://salmon.readthedocs.io/en/latest/salmon.html#mimicbt2)
+Salmon is a tool with dual purposes such as alignment and quantification of differential expression. Some of the parameters for the tool include the following. The other parameters for the tool can be found in [Salmon Manual Page](https://salmon.readthedocs.io/en/latest/salmon.html#mimicbt2)
 
 
 | Parameters | Description | 
@@ -232,7 +232,7 @@ StringTie is known for efficient and rapid assembly of RNA-Seq alignments into p
 
 ###### HTSeq
 
-HTSeq facilitates in counting the number of mapped reads to each gene. It provides the user with multiple modes of usage and also allows the creation of custom scripts. Key parameters for the tool are given below. The other parameters for the tool can be found in [HTSEQ Manual Page](https://htseq.readthedocs.io/en/release_0.11.1/count.html))
+HTSeq facilitates in counting the number of mapped reads to each gene. It provides the user with multiple modes of usage and also allows the creation of custom scripts. Key parameters for the tool are given below. The other parameters for the tool can be found in [HTSeq Manual Page](https://htseq.readthedocs.io/en/release_0.11.1/count.html)
 
 | Parameters | Description | 
 |----|--| 
@@ -246,7 +246,7 @@ HTSeq facilitates in counting the number of mapped reads to each gene. It provid
 #### -  Differential Expression tools
 ###### Ballgown
 
-Ballgown is an R language based tool that enables the statistical analysis of assembled transcripts and differential expression analysis along with its visualization. Key arguments for the tool are given below. The other arguments for the tool can be found in [Ballgown Manual](https://www.bioconductor.org/packages/release/bioc/manuals/ballgown/man/ballgown.pdf)
+Ballgown is an R language based tool that enables the statistical analysis of assembled transcripts and differential expression analysis along with its visualization. Key arguments for the tool are given below. The other arguments for the tool can be found in [Ballgown Manual page](https://www.bioconductor.org/packages/release/bioc/manuals/ballgown/man/ballgown.pdf)
 
 |  Arguments | Description | 
 |----|--| 
