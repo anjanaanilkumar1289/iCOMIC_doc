@@ -119,7 +119,7 @@ It is a fast and sensitive alignment program applicable for both RNA-seq and Who
 
 ###### Salmon
 
-Salmon is a tool with dual purposes such as alignment and quantification of differential expression. Some of the parameters for the tool include the following. The other parameters for the tool can be found in [Salmon Manual Page](https://salmon.readthedocs.io/en/latest/salmon.html#mimicbt2)
+Salmon is a tool with dual purposes such as alignment and quantification of differential expression. Some of the parameters for the tool include the following. The other parameters for the tool can be found in [Salmon manual Page](https://salmon.readthedocs.io/en/latest/salmon.html#mimicbt2)
 
 
 | Parameters | Description | 
@@ -187,7 +187,7 @@ This tool identifies somatic mutations such as indels and SNAs in a diseased sam
 
 ###### MuSE
 
-MuSe is a tool that calls somatic point mutations in normal-tumor sample pairs using a Markov substitution model for evolution. More information about the tool can be found in[MuSE variant caller tool page](https://bioinformatics.mdanderson.org/public-software/muse/)
+MuSe is a tool that calls somatic point mutations in normal-tumor sample pairs using a Markov substitution model for evolution. More information about the tool can be found in [MuSE variant caller tool page](https://bioinformatics.mdanderson.org/public-software/muse/)
 
 #### - Annotators
 ###### SnpEff
@@ -260,7 +260,7 @@ Ballgown is an R language based tool that enables the statistical analysis of as
 
 ###### Deseq2
 
-It Uses negative binomial distribution for testing differential expression using R language. Some of the arguments to look into are given below. The other arguments for the tool can be found in [DESEQ2 Manual Page](https://bioconductor.org/packages/release/bioc/manuals/DESeq2/man/DESeq2.pdf)
+It Uses negative binomial distribution for testing differential expression using R language. Some of the arguments to look into are given below. The other arguments for the tool can be found in [DESeq2 Manual Page](https://bioconductor.org/packages/release/bioc/manuals/DESeq2/man/DESeq2.pdf)
 
 | Arguments | Description | 
 |----|--| 
