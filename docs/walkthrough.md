@@ -48,7 +48,7 @@ Cutadapt is a trimming tool that enables the user to remove adapter and primer s
 | -a | 3’ Adapter sequence | 
 | -g | 5’ adapter sequence | 
 | -Z | Compression level | 
-| -u *(n)* | Removes n reads unconditionally | 
+| -u (*n*) | Removes n reads unconditionally | 
 | -q | Quality cutoff | 
 
 
@@ -85,7 +85,7 @@ Bowtie2 is a fast and efficient algorithm for aligning reads to a reference sequ
 | Parameter  | Description | 
 |--|--| 
 | ``--threads`` | Threads | 
-| --cutoff *(n)* | Index only the first *(n)*  bases of the reference sequences (cumulative across sequences) and ignore the rest. | 
+| --cutoff (*n*) | Index only the first *(n)*  bases of the reference sequences (cumulative across sequences) and ignore the rest. | 
 | -seed | The seed for pseudo-random number generator | 
 | -N | Sets the number of mismatches to allowed in a seed alignment during multiseed alignment | 
 | dvc | the period for the difference-cover sample | 
