@@ -59,7 +59,7 @@ Cutadapt is a trimming tool that enables the user to remove adapter and primer s
 
 | Parameter  | Description | 
 |--|--| 
-| -t | Threads | 
+| -t | `Threads` | 
 | -e | --alignment-max-error |  
 | --alignment-global-min-identity | Minimum global-alignment identity required | 
 | --alignment-global-min-score | Minimum global-alignment score required | 
