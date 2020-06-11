@@ -84,7 +84,7 @@ Bowtie2 is a fast and efficient algorithm for aligning reads to a reference sequ
 
 | Parameter  | Description | 
 |--|--| 
-| --threads | Threads | 
+| ``--threads`` | Threads | 
 | --cutoff *(n)* | Index only the first *(n)*  bases of the reference sequences (cumulative across sequences) and ignore the rest. | 
 | -seed | The seed for pseudo-random number generator | 
 | -N | Sets the number of mismatches to allowed in a seed alignment during multiseed alignment | 
