@@ -48,7 +48,7 @@ Cutadapt is a trimming tool that enables the user to remove adapter and primer s
 | -a | 3’ Adapter sequence | 
 | -g | 5’ adapter sequence | 
 | -Z | Compression level | 
-| -u (n) | Removes n reads unconditionally | 
+| -u *(n)* | Removes n reads unconditionally | 
 | -q | Quality cutoff | 
 
 
@@ -85,7 +85,7 @@ Bowtie2 is a fast and efficient algorithm for aligning reads to a reference sequ
 | Parameter  | Description | 
 |--|--| 
 | --threads | Threads | 
-| --cutoff (n) | Index only the first (n)  bases of the reference sequences (cumulative across sequences) and ignore the rest. | 
+| --cutoff *(n)* | Index only the first *(n)*  bases of the reference sequences (cumulative across sequences) and ignore the rest. | 
 | -seed | The seed for pseudo-random number generator | 
 | -N | Sets the number of mismatches to allowed in a seed alignment during multiseed alignment | 
 | dvc | the period for the difference-cover sample | 
@@ -99,9 +99,9 @@ STAR is a rapid RNA-Seq read aligner specializing in fusion read and splice junc
 |----|--| 
 | -- runThreadN | NumberOfThreads | 
 | --runMode | genomeGenerate | 
-| --genomeDir | /path/to/genomeDir | 
-| --genomeFastaFiles | /path/to/genome/fasta1 /path/to/genome/fasta2 | 
-| --sjdbGTFfile | /path/to/annotations.gtf | 
+| --genomeDir | */path/to/genomeDir* | 
+| --genomeFastaFiles | */path/to/genome/fasta1 /path/to/genome/fasta2* | 
+| --sjdbGTFfile | */path/to/annotations.gtf* | 
 | --sjdbOverhang | ReadLength-1 | 
 
 ###### HISAT2 
@@ -110,11 +110,11 @@ It is a fast and sensitive alignment program applicable for both RNA-seq and Who
 
 | parameters |Description | 
 |--|--| 
-| - x (hisat-idx) | The basename of the index for the reference genome | 
+| - x *(hisat-idx)* | The basename of the index for the reference genome | 
 | -q | Reads which are FASTQ files | 
-| --n-ceil (func) | Sets a function governing the maximum number of ambiguous characters (usually Ns and/or .s) allowed in a read as a function of read length | 
-| --ma (int) | Sets the match bonus | 
-| --pen-cansplice (int) | Sets the penalty for each pair of canonical splice sites (e.g. GT/AG) | 
+| --n-ceil *(func)* | Sets a function governing the maximum number of ambiguous characters (usually Ns and/or .s) allowed in a read as a function of read length | 
+| --ma *(int)* | Sets the match bonus | 
+| --pen-cansplice *(int)* | Sets the penalty for each pair of canonical splice sites (e.g. GT/AG) | 
 
 
 ###### Salmon
@@ -127,7 +127,7 @@ Salmon is a tool with dual purposes such as alignment and quantification of diff
 | --validateMappings | Enables selective alignment of the sequencing reads when mapping them to the transcriptome | 
 | --recoverOrphans | This flag performs orphan “rescue” for reads | 
 | --hardFilter | This flag (which should only be used with selective alignment) turns off soft filtering and range-factorized equivalence classes, and removes all but the equally highest scoring mappings from the equivalence class label for each fragment. | 
-| --genomeFastaFiles | /path/to/genome/fasta1 /path/to/genome/fasta2 | 
+| --genomeFastaFiles | */path/to/genome/fasta1 /path/to/genome/fasta2* | 
 | --numBootstraps | Ables to optionally compute bootstrapped abundance estimates | 
 | -p / --threads | The number of threads that will be used for quasi-mapping, quantification, and bootstrapping / posterior sampling (if enabled) | 
 
@@ -212,7 +212,7 @@ Annovar can be used to efficiently annotate functional variants such as SNVs and
 | --splicing_threshold | distance between splicing variants and exon/intron boundary | 
 | --maf_threshold | filter 1000G variants with MAF above this threshold | 
 | --maxgenethread | max number of threads for gene-based annotation | 
-| --batchsize | batch size for processing variants per batch (default: 5m) | 
+| --batchsize | batch size for processing variants per batch *(default: 5m)* | 
 
 
 #### -  Expression modellers
@@ -225,9 +225,9 @@ StringTie is known for efficient and rapid assembly of RNA-Seq alignments into p
 |----|--| 
 | --rf | Assumes a stranded library fr-firststrand | 
 | --fr | Assumes a stranded library fr-secondstrand | 
-| --ptf (f_tab) | Loads a list of point-features from a text feature file (f_tab) to guide the transcriptome assembly | 
-| -l (label) | Sets (label) as the prefix for the name of the output transcripts | 
-| -m (int) | Sets the minimum length allowed for the predicted transcripts | 
+| --ptf *(f_tab)* | Loads a list of point-features from a text feature file (f_tab) to guide the transcriptome assembly | 
+| -l *(label)* | Sets (label) as the prefix for the name of the output transcripts | 
+| -m *(int)* | Sets the minimum length allowed for the predicted transcripts | 
 
 
 ###### HTSeq
