@@ -45,11 +45,11 @@ Cutadapt is a trimming tool that enables the user to remove adapter and primer s
 
 | Parameter | Description | 
 |--|--| 
-| -a | 3’ Adapter sequence | 
-| -g | 5’ adapter sequence | 
-| -Z | Compression level | 
-| -u (*n*) | Removes n reads unconditionally | 
-| -q | Quality cutoff | 
+| ``-a`` | 3’ Adapter sequence | 
+| ``-g`` | 5’ adapter sequence | 
+| ``-Z`` | Compression level | 
+| ``-u (*n*)`` | Removes n reads unconditionally | 
+| ``-q`` | Quality cutoff | 
 
 
 #### - Aligners
