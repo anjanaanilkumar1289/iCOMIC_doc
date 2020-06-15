@@ -31,7 +31,7 @@ Table shows the tools incorporated in iCOMIC
 
 
   
-#### - Tools for Quality Control
+#### 5.3. Tools for Quality Control
 ###### FastQC	
 
 It is a popular tool that can be used to provide an overview of the basic quality control metrics for raw next generation sequencing data. There are a number different analyses (called modules) that may be performed on a sequence data set. It provides summary graphs enabling the user to decide on the directions for further analysis.
