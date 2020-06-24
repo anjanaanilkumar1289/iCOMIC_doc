@@ -21,9 +21,11 @@
 	- Qt and pyqt5
   
       a. Qt version and cross platform compatibility
+      
 	- Dependencies
   
       a. Problem with importing specific modules
+      
 	- Conda related
 
 -  What to do if a RUN fails
