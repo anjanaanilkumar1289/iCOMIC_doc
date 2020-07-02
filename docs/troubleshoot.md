@@ -19,14 +19,18 @@
 	1. What is the best place to report iCOMIC bugs?
 
 - Installation issues
+
     - Qt and pyqt5
     
-      a. Qt version and cross platform compatibility
+        a. Qt version and cross platform compatibility
+      
       
     - Dependencies
   
-      a. Problem with importing specific modules
+        a. Problem with importing specific modules
+      
       
     - Conda related
+
 
 -  What to do if a RUN fails
