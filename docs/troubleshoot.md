@@ -20,7 +20,8 @@
 
 - Installation issues
     - Qt and pyqt5
-        a. Qt version and cross platform compatibility
+    
+      a. Qt version and cross platform compatibility
       
     - Dependencies
   
