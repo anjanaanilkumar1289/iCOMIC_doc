@@ -152,12 +152,4 @@ Contains count matrix representing the reads mapped to individual genes.
 Contain a text file with a consolidated list of differentially expressed genes.
 	- Index
 This is an optional folder which contains the index files if the user chooses to generate index corresponding to the choice of aligner.
-#### 3.9. FAQs
 
-- What to do if run fails
-
-- How to run iCOMIC?
-
-- Dependences
-
-- Installation issues
