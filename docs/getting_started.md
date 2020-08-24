@@ -126,6 +126,7 @@ Here is a typical set of actions to run iCOMIC pipelines:
 All outputs are stored in separate folders inside the main folder iCOMIC, for each pipeline along with log information.
 
 - DNA-Seq
+
 DNA-Seq analysis generates five output folders as follows.
 	- MultiQC
 	Contains subfolders MultiQC, FastQC and Cutadapt. MultiQC contains consolidated `html` reports on the overall run statistics and a separate `html` file on merged FastQC reports of all the input samples. The folder FastQC contains quality reports of individual samples. It may also enclose FastQC report of trimmed reads if the user opts for trimming the input reads. The folder Cutadapt contains trimmed `fastq` files.
@@ -138,6 +139,7 @@ Contains annotated `vcf` files.
 	- Index
 This is an optional folder which contains the index files if the user chooses to generate index corresponding to the choice of aligner.
 - RNA-Seq
+
 RNA-Seq analysis generates five output folders inside the main folder iCOMIC, as follows.
 	- MultiQC
 Contains subfolders MultiQC, FastQC and Cutadapt. MultiQC contains consolidated `html` reports on the overall run statistics and a separate `html` file on merged FastQC reports of all the input samples. The folder FastQC contains quality reports of individual samples. It may also enclose FastQC report of trimmed reads if the user opts for trimming the input reads. The folder Cutadapt contains trimmed `fastq` files.
