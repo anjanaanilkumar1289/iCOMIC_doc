@@ -32,13 +32,10 @@ $ pip install requirements.txt
 
 	iCOMIC is characterized by a Graphical user Interface which enhances the accessibility of the toolkit. The GUI framework is built using PyQt5, python binding of the cross-platform GUI toolkit Qt. The GUI framework allows users with minimal programming expertise to perform analysis.
 
-  
-
-#### 3.4. Terminology
 
   
 
-#### 3.5. Launching the wrapper
+#### 3.4. Launching the wrapper
 
 iCOMIC can be launched using a simple command in the terminal.
 
@@ -48,7 +45,7 @@ $ ‘python mainwin_v32.py’
 
 ```
 
-#### 3.6. Input file format
+#### 3.5. Input file format
 
 iCOMIC accepts input information in two different modes. The user can either feed the path to a folder containing raw fastq files or provide a table consolidating particulars of raw data.
 
@@ -78,7 +75,7 @@ iCOMIC accepts input information in two different modes. The user can either fee
 
   
 
-#### 3.7. Quick Guide
+#### 3.6. Quick Guide
 
 iCOMIC toolkit enables the ready analysis of RNA-Seq and Whole Genome/Exome Sequencing data. iCOMIC has an inbuilt library of tools with predefined valid combinations.
 
@@ -124,7 +121,7 @@ Here is a typical set of actions to run iCOMIC pipelines:
 
 15. Results for RNA-Seq analysis include multiQC analysis statistics, R plots such as MA plot, Heatmap, PCA plot and box plot and list of differentially expressed genes.
 
-#### 3.8. Output information
+#### 3.7. Output information
 
 All outputs are stored in separate folders inside the main folder iCOMIC, for each pipeline along with log information.
 
