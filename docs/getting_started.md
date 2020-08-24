@@ -125,7 +125,9 @@ Here is a typical set of actions to run iCOMIC pipelines:
 
 All outputs are stored in separate folders inside the main folder iCOMIC, for each pipeline along with log information.
 
+
 - DNA-Seq
+
 
 DNA-Seq analysis generates five output folders as follows.
 	- MultiQC
@@ -138,7 +140,9 @@ This folder includes `vcf` files of identified variants.
 Contains annotated `vcf` files.
 	- Index
 This is an optional folder which contains the index files if the user chooses to generate index corresponding to the choice of aligner.
+
 - RNA-Seq
+
 
 RNA-Seq analysis generates five output folders inside the main folder iCOMIC, as follows.
 	- MultiQC
