@@ -92,7 +92,7 @@ In the `Quality Control` widget, you can examine the quality of your samples for
 
   
 
-##### 4.2.3. Setting up your custom pipeline
+##### 4.2.3. Setting up a pipeline
 
 In the tool selection widget, you will be asked to choose your desired set of tools for analysis.
 
