@@ -22,7 +22,7 @@ $ pip install requirements.txt
 
   
 
-#### 3.3. Usage
+#### 3.3. The components
 
 1) Snakemake
 
