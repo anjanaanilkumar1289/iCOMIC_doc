@@ -132,6 +132,8 @@ Salmon is a tool with dual purposes such as alignment and quantification of diff
 
 ###### GATK HC
 
+ - Variant caller for single sample analysis 
+
 One of the extensively used variant callers. Calls variants from the aligned reds corresponding to the reference genome. Some of the parameters for GATK Haplotype caller are listed beow. The complete parameter list is available at [GATK Haplotypecaller article page](https://gatk.broadinstitute.org/hc/en-us/articles/360037225632-HaplotypeCaller)
 
 
@@ -144,6 +146,8 @@ One of the extensively used variant callers. Calls variants from the aligned red
 
 ###### Samtools mpileup
 
+ - Variant caller for single sample analysis 
+
 Samtools mpileup together with BCFtools call identifies the variants. Some key parameters to look are listed below. Parameters in detail are found in [Samtools-mpileup manual page](http://www.htslib.org/doc/samtools-mpileup.html)
 
 | Parameter  | Description | 
@@ -154,6 +158,8 @@ Samtools mpileup together with BCFtools call identifies the variants. Some key p
 
 
 ###### FreeBayes
+
+ - Variant caller for single sample analysis 
 
 FreeBayes is a variant detector developed to identify SNPs, Indels, MNPs and complex variants with respect to the reference genome. Key parameters for FreeBayes are listed below. Other parameters can be found in detain in [FreeBayes parameter page](https://vcru.wisc.edu/simonlab/bioinformatics/programs/freebayes/parameters.txt)
 
@@ -169,6 +175,8 @@ FreeBayes is a variant detector developed to identify SNPs, Indels, MNPs and com
 
 ###### GATK Mutect2
 
+ - Variant caller for normal-tumor sample analysis 
+
 This tool identifies somatic mutations such as indels and SNAs in a diseased sample compared to the provided normal sample, using the haplotype assembly strategy. Parameters specific to Mutect2 include the following. The complete parameter list is available at [GATK Mutect2 manual page](https://gatk.broadinstitute.org/hc/en-us/articles/360037593851-Mutect2)
 
 
@@ -181,6 +189,8 @@ This tool identifies somatic mutations such as indels and SNAs in a diseased sam
 
 
 ###### MuSE
+
+ - Variant caller for normal-tumor sample analysis
 
 MuSe is a tool that calls somatic point mutations in normal-tumor sample pairs using a Markov substitution model for evolution. More information about the tool can be found in [MuSE variant caller tool page](https://bioinformatics.mdanderson.org/public-software/muse/)
 
