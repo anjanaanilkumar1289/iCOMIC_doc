@@ -10,6 +10,8 @@ Setting up iCOMIC is comparatively effortless across Linux or Mac platforms. iCO
 
 - Python 3.6 and above
 
+- conda version 4.8.5
+
 - iCOMIC package downloaded from GitHub
 
 - Memory requirement
