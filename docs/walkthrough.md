@@ -1,6 +1,6 @@
-## 5.Walkthrough of pre-constructed pipeline
+## 6.Walkthrough of pre-constructed pipeline
 
-#### 5.1. List of pipelines
+#### 6.1. List of pipelines
 
 - WGS data analysis
 Enables the user to identify variants from raw sequencing reads and functionally annotate them. Multiple tools are integrated in the WGS analysis pipeline.
@@ -10,7 +10,7 @@ RNA-Seq part enables quantification of gene expression. The pipeline provides a 
 
   
 
-#### 5.2. Description of the tools used
+#### 6.2. Description of the tools used
 
 Table shows the tools incorporated in iCOMIC
 
@@ -18,15 +18,15 @@ Table shows the tools incorporated in iCOMIC
 | Function | DNA-Seq Tools | RNA-Seq Tools | 
 |--|--|--| 
 | Quality Control | FastQC, MultiQC, Cutadapt | FastQC, MultiQC, Cutadapt | 
-| Alignment | GEM-Mapper, BWA-MEM, Bowtie2 | Bowtie2, STAR, HISAT2, Salmon | 
+| Alignment | GEM-Mapper, BWA-MEM, Bowtie2 | STAR, HISAT2 | 
 | Variant Calling | GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2 | - | 
 | Annotation | Annovar, SnpEff | - | 
-| Expression Modeller | - | StringTie, HTSeq,STAR | 
+| Expression Modeller | - | StringTie, HTSeq | 
 | Differential Expression | - | DESeq2, ballgown | 
 
 
  
-#### 5.3. Tools for Quality Control
+#### 6.3. Tools for Quality Control
 ###### FastQC	
 
 It is a popular tool that can be used to provide an overview of the basic quality control metrics for raw next generation sequencing data. There are a number different analyses (called modules) that may be performed on a sequence data set. It provides summary graphs enabling the user to decide on the directions for further analysis.
@@ -110,22 +110,6 @@ It is a fast and sensitive alignment program applicable for both RNA-seq and Who
 | ``--n-ceil`` (func) | Sets a function governing the maximum number of ambiguous characters (usually Ns and/or .s) allowed in a read as a function of read length | 
 | ``--ma`` (int) | Sets the match bonus | 
 | ``--pen-cansplice`` (int) | Sets the penalty for each pair of canonical splice sites (e.g. GT/AG) | 
-
-
-###### Salmon
-
-Salmon is a tool with dual purposes such as alignment and quantification of differential expression. Some of the parameters for the tool include the following. The other parameters for the tool can be found in [Salmon manual Page](https://salmon.readthedocs.io/en/latest/salmon.html#mimicbt2)
-
-
-| Parameters | Description | 
-|--|--| 
-| ``--validateMappings`` | Enables selective alignment of the sequencing reads when mapping them to the transcriptome | 
-| ``--recoverOrphans`` | This flag performs orphan “rescue” for reads | 
-| ``--hardFilter`` | This flag (which should only be used with selective alignment) turns off soft filtering and range-factorized equivalence classes, and removes all but the equally highest scoring mappings from the equivalence class label for each fragment. | 
-| ``--genomeFastaFiles`` | */path/to/genome/fasta1 /path/to/genome/fasta2* | 
-| ``--numBootstraps`` | Ables to optionally compute bootstrapped abundance estimates | 
-| ``-p`` / ``--threads`` | The number of threads that will be used for quasi-mapping, quantification, and bootstrapping / posterior sampling (if enabled) | 
-
 
 
 #### -  Variant Callers
