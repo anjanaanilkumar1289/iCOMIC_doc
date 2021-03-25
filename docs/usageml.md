@@ -1,4 +1,4 @@
-## 13. Using iCOMIC for cTaG and NBDriver tools
+## 5. Using iCOMIC for cTaG and NBDriver tools
 
 #### 5.1. About cTaG
 
