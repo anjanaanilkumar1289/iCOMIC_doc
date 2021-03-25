@@ -1,6 +1,6 @@
-## 8.Gallery
+## 9.Gallery
 
-#### 8.1. Screenshots
+#### 9.1. Screenshots
 
 1. MultiQC Report
 
@@ -8,7 +8,7 @@
 
 3. GUI tabs
 
-#### 8.2. GIF
+#### 9.2. GIF
 
 1. How to open iCOMIC
 
