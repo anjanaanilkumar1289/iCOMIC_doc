@@ -11,6 +11,7 @@ Documents
    installation
    getting_started
    usage
+   usuageml
    walkthrough
    custom
    results
