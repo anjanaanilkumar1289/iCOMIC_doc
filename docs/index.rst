@@ -11,7 +11,7 @@ Documents
    installation
    getting_started
    usage
-   usuageml
+   usageml
    walkthrough
    custom
    results
