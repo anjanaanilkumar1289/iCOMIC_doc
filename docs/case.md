@@ -1,11 +1,11 @@
-## 9. Case examples
+## 10. Case examples
 
-#### 9.1. Installation
+#### 10.1. Installation
 
-#### 9.2. Configuring iCOMIC
+#### 10.2. Configuring iCOMIC
 
-#### 9.3. Analysis using test data WGS
+#### 10.3. Analysis using test data WGS
 
-#### 9.4. Analysis using test data RNA-Seq
+#### 10.4. Analysis using test data RNA-Seq
 
-#### 9.5. Results
+#### 10.5. Results
