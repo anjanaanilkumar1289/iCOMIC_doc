@@ -13,6 +13,7 @@
 #### 10.3. Installation
 
 Installation is easy as we provide a requirements.txt file comprising all the software dependencies. Once you clone the iCOMIC github repository, you can install all the associated dependencies using the command below. Every additional software requirement will be managed by the conda environment.
+
 `$ pip install requirements.txt`
 
 #### 10.4. Testing
@@ -29,9 +30,33 @@ iCOMIC can be launched using a simple command in the terminal.
 
 Here is a typical set of actions to run iCOMIC pipelines:
 - Select a pipeline
-- 
+- Choose the mode of input
+- Input the required data fields
+- Proceed to the next tab if you want to skip Quality Check
+- Or click on the Quality Control Results button to view a consolidated MultiQC report of Quality statistics
+- Check yes if you want to do trimming and also mention the additional parameters as per requirement
+- Tool for Quality Control: FastQC
+- Tool for trimming the reads: Cutadapt
+- Choose the tools of interest from Tool selection tab and set the parameters as required
+- For the choice of aligner, the corresponding genome index file needs to be uploaded if available, or the user can generate the index file using the Generate Index button
+- Click Run on the next tab to run the analysis
+- Once the analysis is completed, the Results tab will be opened
+- DNA-Seq results include a MultiQC report comprising the statistics of the entire analysis, a file consisting of the variants called and the corresponding annotated variant file
+- Results for RNA-Seq analysis include multiQC analysis statistics, R plots such as MA plot, Heatmap, PCA plot and box plot and list of differentially expressed genes
+- Proceed to cTaG/NBDriver tab for further analysis if needed
 
 ##### 10.5.3 Adding samples: step one
+
+iCOMIC accepts input information in `two` different modes. In the `first` method, the user can feed the path to a folder containing raw fastq files. For the direct upload of a sample folder, the folder should contain only the samples and the sample file names should be in a specific format:
+
+`{sample_name}_{condition}_Rep{replicate_number}_R{1 / 2}.fastq`
+
+- `{sample_name}` should be replaced with the sample name
+- `{condition}` should be replaced with the nature of the sample, normal or tumor. If you are using a germline variant calling pipeline, the condition should be normal for all the samples
+- `{replicate_number}` should be replaced by the number of replicate
+- If the sample is paired end, `{1 / 2}` should be replaced by 1 or 2 accordingly for forward and reverse sequences. If the sample is single end, {1 / 2} can be replaced by 1
+
+
 ##### 10.5.4 Adding samples: step two
 ##### 10.5.5 Adding samples: specifying DNA-seq workflow
 ##### 10.5.6 Adding samples: specifying RNA-seq workflow
