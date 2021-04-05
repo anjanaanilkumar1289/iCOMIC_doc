@@ -103,22 +103,28 @@ DNA-Seq constitutes the Whole Genome/Exome Sequencing data analysis pipeline whi
 
 In the tool selection widget, you will be asked to choose your desired set of tools for analysis.
 - Aligner
+
 You can choose a software for sequence alignment from the drop down menu. You will also need to input the genome index corresponding to the choice of aligner. iCOMIC allows you to generate the required index using the Generate index button. One will have the permission to change the values for the mandatory parameters displayed. Moreover, if you are an expert bioinformatician, iCOMIC allows you to play around with the advanced parameters. Clicking on the Advanced button would open a pop-up of all the parameters associated with a tool.
 (SCREENSHOT)
 - Variant Caller
+
 This section permits you to choose a variant caller from the set of tools integrated. If the input sample is normal-tumor specific, then only those tools which call variants comparing the normal and tumor samples will be displayed. On the other hand, if you want to call variants corresponding to the reference genome, variant callers of that type would be displayed. iCOMIC allows you to set mandatory as well as advanced parameters for the selected tool.
 - Annotator
+
 This section allows you to choose a tool for annotating your called variants and specify the parameters.
 (SCREENSHOT)
 ##### 10.5.9 Setting up differential gene expression analysis
 
 RNA-Seq part allows you to identify the differentially expressed genes from RNA Sequencing data. iCOMIC integrates a combination of 2 aligners, 2 expression modellers and 2 differential expression tools along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
 - Aligner
+
 You can choose a software for sequence alignment from the drop down menu. You will also need to input the genome index corresponding to the choice of aligner. No worries! iCOMIC allows you to generate the required index using the Generate index button. One will have the permission to change the values for the mandatory parameters displayed. Moreover, if you are an expert bioinformatician, iCOMIC allows you to play around with the advanced parameters. Clicking on the Advanced button would open a pop-up of all the parameters associated with a tool.
 (SCREENSHOT)
 - Expression Modeller
+
 This section allows you to choose an expression modeller from the integrated list of tools for counting the reads with the help of annotation file. Users will also have the freedom to set parameters corresponding to the tool.
 - Differential Expression tool
+
 Here you can choose a tool for quantifying differential expression and can also set parameters.
 (SCREENSHOT)
 ##### 10.5.10 Submitting the analysis
