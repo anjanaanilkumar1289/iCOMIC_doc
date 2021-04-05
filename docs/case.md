@@ -58,7 +58,28 @@ iCOMIC accepts input information in `two` different modes. In the `first` method
 
 
 ##### 10.5.4 Adding samples: step two
+
+The user can provide a table consolidating particulars of raw data. The sample information should be given in a tab delimited file with a header row.
+The Column names should be:
+
+- Sample : The Sample name
+- Unit : The number of replicates
+- Condition : Nature of the sample, normal or tumor
+- fq1 : The path of Read 1
+- fq2 : Path of Read 2, if you are working with single-end reads only, the ‘fq2’ column can be left blank
+
 ##### 10.5.5 Adding samples: specifying DNA-seq workflow
+
+The significant obligation is raw fastq files which can either be single-end or paired-end. Fastq read details can be specified in two different methods, either by uploading a folder containing the reads or using a tab-separated file describing the reads as specified in the previous sections. Other input requirements and the file specifications are as mentioned:
+
+- Samples Folder : Path to the folder containing samples satisfying the conditions mentioned in section 3
+- Samples Table : Path to the tsv file generated according to instructions in section 4 as an alternative to Samples folder
+- Reference Genome : Path to the reference genome. The file should have an extension .fa
+- Reference Known Variant : Path to the reference known variants file. The file should be a bgzipped vcf
+- Maximum threads : The maximum number of threads that can be used for running each tool.
+Once all the fields are filled, you can proceed to the Quality Control tab using the next button.
+
+(SCREENSHOT)
 ##### 10.5.6 Adding samples: specifying RNA-seq workflow
 ##### 10.5.7 Review of Sample quality
 ##### 10.5.8 Specifying analysis settings DNA seq
