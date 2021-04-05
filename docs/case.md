@@ -90,6 +90,7 @@ Similar to the DNA-Seq pipeline, the major requirement here is also raw fastq fi
 - Annotated file : Path to the gtf annotation file
 - Maximum threads : The maximum number of threads that can be used for running each tool.
 Once all the fields are filled, users can proceed to the Quality Control tab using the next button.
+
 (SCREENSHOT)
 ##### 10.5.7 Review of Sample quality
 
@@ -105,6 +106,7 @@ In the tool selection widget, you will be asked to choose your desired set of to
 - Aligner
 
 You can choose a software for sequence alignment from the drop down menu. You will also need to input the genome index corresponding to the choice of aligner. iCOMIC allows you to generate the required index using the Generate index button. One will have the permission to change the values for the mandatory parameters displayed. Moreover, if you are an expert bioinformatician, iCOMIC allows you to play around with the advanced parameters. Clicking on the Advanced button would open a pop-up of all the parameters associated with a tool.
+
 (SCREENSHOT)
 - Variant Caller
 
@@ -119,6 +121,7 @@ RNA-Seq part allows you to identify the differentially expressed genes from RNA 
 - Aligner
 
 You can choose a software for sequence alignment from the drop down menu. You will also need to input the genome index corresponding to the choice of aligner. No worries! iCOMIC allows you to generate the required index using the Generate index button. One will have the permission to change the values for the mandatory parameters displayed. Moreover, if you are an expert bioinformatician, iCOMIC allows you to play around with the advanced parameters. Clicking on the Advanced button would open a pop-up of all the parameters associated with a tool.
+
 (SCREENSHOT)
 - Expression Modeller
 
@@ -126,6 +129,7 @@ This section allows you to choose an expression modeller from the integrated lis
 - Differential Expression tool
 
 Here you can choose a tool for quantifying differential expression and can also set parameters.
+
 (SCREENSHOT)
 ##### 10.5.10 Submitting the analysis
 
@@ -135,6 +139,37 @@ The Run tab consists of a Run button to initialize and proceed with the analysis
 ##### 10.5.11 Retrieving the data
 
 Once the analysis is completed, iCOMIC will automatically move on to the Results tab which displays three major results.
+1. DNA-Seq
+
+The results displayed for DNA seq workflow are listed below.
+- Analysis Statistics
+
+Displays a MultiQC consolidated report of overall analysis statistics. This includes FastQC reports, Alignment statistics and variant statistics.
+
+- Variants called
+
+On clicking this button a pop up with the vcf file of variants called will be displayed.
+
+- Annotated variants
+
+Displays the annotated vcf file
+
+(SCREENSHOT)
+2. RNA-seq
+
+The results displayed for DNA seq workflow are listed below.
+- Analysis Statistics
+
+Displays a MultiQC consolidated report of overall analysis statistics. This includes FastQC reports and Alignment statistics 
+- Differentially Expressed Genes
+
+On clicking this button a pop up with the list of differentially expressed genes will be displayed.
+- Plots
+
+Displays differentially expressed genes in R plots such as MA plot, Heatmap, PCA plot and box plot.
+
+
+(SCREENSHOT)
 
 ##### 10.5.12 Analysis with BAM input
 iCOMIC allows the user to start the analysis with aligned BAM files. For running iCOMIC with BAM files as input, the files should be sorted and stored in a folder named ‘results_dna/mapped’ or ‘results/mapped’ in the case DNA seq and RNA seq workflows respectively. The BAM files should be named in the format `{sample}-{unit}-{condition}.sorted.bam`. It is advised that while choosing this approach, the input is provided as a table. The sample information should be specified as mentioned in section 3 with fq1 and fq2 columns empty.
