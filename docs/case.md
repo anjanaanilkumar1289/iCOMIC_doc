@@ -109,14 +109,14 @@ In the tool selection widget, you will be asked to choose your desired set of to
 
 You can choose a software for sequence alignment from the drop down menu. You will also need to input the genome index corresponding to the choice of aligner. iCOMIC allows you to generate the required index using the Generate index button. One will have the permission to change the values for the mandatory parameters displayed. Moreover, if you are an expert bioinformatician, iCOMIC allows you to play around with the advanced parameters. Clicking on the Advanced button would open a pop-up of all the parameters associated with a tool.
 
-(SCREENSHOT)
+![ Figure 5: Tools tab of DNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/dnatools1.PNG?raw=true)
 - Variant Caller
 
 This section permits you to choose a variant caller from the set of tools integrated. If the input sample is normal-tumor specific, then only those tools which call variants comparing the normal and tumor samples will be displayed. On the other hand, if you want to call variants corresponding to the reference genome, variant callers of that type would be displayed. iCOMIC allows you to set mandatory as well as advanced parameters for the selected tool.
 - Annotator
 
 This section allows you to choose a tool for annotating your called variants and specify the parameters.
-(SCREENSHOT)
+![ Figure 6: Tools tab of DNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/dnatools2.PNG?raw=true)
 ##### 10.5.9 Setting up differential gene expression analysis
 
 RNA-Seq part allows you to identify the differentially expressed genes from RNA Sequencing data. iCOMIC integrates a combination of 2 aligners, 2 expression modellers and 2 differential expression tools along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
@@ -124,7 +124,7 @@ RNA-Seq part allows you to identify the differentially expressed genes from RNA 
 
 You can choose a software for sequence alignment from the drop down menu. You will also need to input the genome index corresponding to the choice of aligner. No worries! iCOMIC allows you to generate the required index using the Generate index button. One will have the permission to change the values for the mandatory parameters displayed. Moreover, if you are an expert bioinformatician, iCOMIC allows you to play around with the advanced parameters. Clicking on the Advanced button would open a pop-up of all the parameters associated with a tool.
 
-(SCREENSHOT)
+![ Figure 7: Tools tab of RNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/rnatools1.PNG?raw=true)
 - Expression Modeller
 
 This section allows you to choose an expression modeller from the integrated list of tools for counting the reads with the help of annotation file. Users will also have the freedom to set parameters corresponding to the tool.
@@ -132,12 +132,13 @@ This section allows you to choose an expression modeller from the integrated lis
 
 Here you can choose a tool for quantifying differential expression and can also set parameters.
 
-(SCREENSHOT)
+![ Figure 8: Tools tab of DNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/rnatools2.PNG?raw=true)
 ##### 10.5.10 Submitting the analysis
 
 The Run tab consists of a Run button to initialize and proceed with the analysis. Progress bar present in the tab allows you to examine the extent to which the process has been completed.
-(SCREENSHOT DNA)
-(SCREENSHOT RNA)
+![ Figure 9: Run tab of DNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/dnarun.PNG?raw=true)
+
+![ Figure 10: Run tab of RNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/runrna.PNG?raw=true)
 ##### 10.5.11 Retrieving the data
 
 Once the analysis is completed, iCOMIC will automatically move on to the Results tab which displays three major results.
@@ -171,7 +172,7 @@ On clicking this button a pop up with the list of differentially expressed genes
 Displays differentially expressed genes in R plots such as MA plot, Heatmap, PCA plot and box plot.
 
 
-(SCREENSHOT)
+![ Figure 12: Results tab of RNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/resultrna.PNG?raw=true)
 
 ##### 10.5.12 Analysis with BAM input
 iCOMIC allows the user to start the analysis with aligned BAM files. For running iCOMIC with BAM files as input, the files should be sorted and stored in a folder named ‘results_dna/mapped’ or ‘results/mapped’ in the case DNA seq and RNA seq workflows respectively. The BAM files should be named in the format `{sample}-{unit}-{condition}.sorted.bam`. It is advised that while choosing this approach, the input is provided as a table. The sample information should be specified as mentioned in section 3 with fq1 and fq2 columns empty.
