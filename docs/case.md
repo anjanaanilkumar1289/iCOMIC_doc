@@ -79,7 +79,8 @@ The significant obligation is raw fastq files which can either be single-end or 
 - Maximum threads : The maximum number of threads that can be used for running each tool.
 Once all the fields are filled, you can proceed to the Quality Control tab using the next button.
 
-(SCREENSHOT)
+![ Figure 1: Input tab of DNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/dnainput.png?raw=true)
+
 ##### 10.5.6 Adding samples: specifying RNA-seq workflow
 
 Similar to the DNA-Seq pipeline, the major requirement here is also raw fastq files, either single-end or paired-end. Fastq read details can be specified in two different methods, either by uploading a folder containing the reads or using a tab-separated file describing the reads, as specified in the previous sections. Other input requirements and file specifications for RNA-seq workflow are mentioned below.
