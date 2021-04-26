@@ -132,7 +132,7 @@ This section allows you to choose an expression modeller from the integrated lis
 
 Here you can choose a tool for quantifying differential expression and can also set parameters.
 
-![ Figure 8: Tools tab of DNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/rnatools2.PNG?raw=true)
+![ Figure 8: Tools tab of RNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/rnatools2.PNG?raw=true)
 ##### 10.5.10 Submitting the analysis
 
 The Run tab consists of a Run button to initialize and proceed with the analysis. Progress bar present in the tab allows you to examine the extent to which the process has been completed.
@@ -173,7 +173,7 @@ On clicking this button a pop up with the list of differentially expressed genes
 Displays differentially expressed genes in R plots such as MA plot, Heatmap, PCA plot and box plot.
 
 
-![       Figure 12: Results tab of RNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/resultrna.PNG?raw=true)
+![                                 Figure 12: Results tab of RNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/resultrna.PNG?raw=true)
 
 ##### 10.5.12 Analysis with BAM input
 iCOMIC allows the user to start the analysis with aligned BAM files. For running iCOMIC with BAM files as input, the files should be sorted and stored in a folder named ‘results_dna/mapped’ or ‘results/mapped’ in the case DNA seq and RNA seq workflows respectively. The BAM files should be named in the format `{sample}-{unit}-{condition}.sorted.bam`. It is advised that while choosing this approach, the input is provided as a table. The sample information should be specified as mentioned in section 3 with fq1 and fq2 columns empty.
