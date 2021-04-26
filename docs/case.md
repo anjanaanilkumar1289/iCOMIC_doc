@@ -136,6 +136,7 @@ Here you can choose a tool for quantifying differential expression and can also 
 ##### 10.5.10 Submitting the analysis
 
 The Run tab consists of a Run button to initialize and proceed with the analysis. Progress bar present in the tab allows you to examine the extent to which the process has been completed.
+
 ![ Figure 9: Run tab of DNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/dnarun.PNG?raw=true)
 
 ![ Figure 10: Run tab of RNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/runrna.PNG?raw=true)
