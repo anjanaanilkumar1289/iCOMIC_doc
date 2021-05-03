@@ -159,6 +159,7 @@ On clicking this button a pop up with the vcf file of variants called will be di
 Displays the annotated vcf file
 
 ![Figure 11: Results tab of DNA Seq pipeline](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/resultdna.PNG?raw=true)
+
 2. RNA-seq
 
 The results displayed for DNA seq workflow are listed below.
