@@ -8,7 +8,7 @@ Enables the user to identify variants from raw sequencing reads and functionally
 RNA-Seq part enables quantification of gene expression. The pipeline provides a final output of a list of differentially expressed genes.
 (to be constructed as provided in the CANEapp manual)
 
-  
+![ Figure 1: The figure below depicts the available pipelines supported by iCOMIC](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/pipelines.png?raw=true)  
 
 #### 6.2. Description of the tools used
 
